@@ -201,135 +201,134 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="361.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="26" BACKITEM="-1">
-            <ITEXT CH="Für viele Raspberry Pi Projekte ist eine visuelle Ausgabe wichtig, ein Standard HDMI-Bildschirm ist dafür jedoch meist zu teuer oder unnötig. Wenn Du zum Beispiel einen Temperatur-Sensor hast und nur den aktuellen Wert anzeigen willst; oder wenn man den Namen eines Internet Radios von einem &quot;headless&quot; Rasberry Pi anzeigen will. Alternativ könnte man auch ein eigenständiges Display für die neuesten tweets haben."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Diese Anleitung erklärt Dir, wie Du ein preiswertes HD44780 Typ 16 Zeichen 2 Zeilen LCD (Flüssigkeitskristall Anzeige) an den GPIO Anschluss Deines Rasberry Pi anschliesst und die Zeit sowie neuesten Nachrichten des BBC RSS-Feeds anzeigen lässt."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Auf der AndyPi Webseite ("/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://andypi.co.uk/"/>
-            <ITEXT CH=") findest Du weitere Videos und  Anleitungen zur Nutzung des LCD. Zum Beispiel kannst Du es zur Anzeige von Medien-Informationen, wie etwa mp3-Titeln von RaspBMC oder RaspFi, nutzen."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Hardware Aufbau"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Hier ist eine kurze Beschreibung der Pin-Belegungen, eine Liste der kompletten Bauteile und detaillierte Bauanleitung ist auf der Webseite "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://andypi.co.uk/"/>
-            <ITEXT CH=" verfügbar. Du kannst die Bauteile einzeln kaufen und selbst zusammen bauen oder ein komplettes, vorgefertigten Bausatz bei AndyPi für £12.99 or  + P&amp;P (nur EU) erwerben."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="-----------------On the LCD, wire a 10K potentiometer (for contrast control) between VSS (1) and VO (3), connect K (16) to RW (5), and connect K (16) to VSS (1). LCD to GPIO connections as follows:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Software Konfiguration"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Beginne mit der aktuellsten Version von Rasbian (stelle sicher, dass Dein System aktuell ist), und installiere einige Python bezogene Tools:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" sudo apt-get update"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" sudo apt-get install -y python-dev \"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" python-setuptools python-pip"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Wir müssen einige Python-Module installieren: wiringpi für die GPIO Steuerung; feedparser um die RSS Feeds zu lesen und das processing Modul für das Threading (wird später erklaert):"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" sudo pip install feedparser \"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" processing wiringpi"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Zuletzt wird die "/>
-            <ITEXT FONTSIZE="12" CH="AndyPi LCD Python Klasse heruntergeladen:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" sudo wget http://andypi.co.uk/downloads/"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" AndyPi_LCD.py"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Python script"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Die AndyPi LCD Klasse enthält eine Anzahl an Funktionen um eine einfache Kontrolle des LCD zu ermöglichen. Davin werden wir einige nutzen. Erstelle ein neues Script (im selben Ordner wie AndyPi_LCD.py) mit dem Inhalt:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" #!/usr/bin/"/>
-            <ITEXT FONTSIZE="12" CH="python"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" from AndyPi_LCD import AndyPi_LCD"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" from processing import Process"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" import time"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" import feedparser"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" lcd=AndyPi_LCD()"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" lcd.lcd_init()"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" lcd.led(512)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" msg = feedparser.parse( 'http://feeds.bbci.co.uk/news/rss.xml?edition=uk').entries[0].title"/>
-            <para PARENT="Code"/>
-            <tab FONTSIZE="12"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Nachdem die benötigten Module importiert wurden setzen wir die Variable &quot;lcd&quot; als die AndyPi_LCD() Klasse, initialisieren das LCD und stellen die Helligkeit des Hintergrundbeleuchtung ein (0=aus, 512=volle Helligkeit). Nun können wir das feedparser Modul nutzen um die Variable &quot;msg&quot; auf den ersten Titel des BBC world news feed zu setzen. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Um Text anzuzeigen kannst Du die AndyPi_LCD Funktion static_text() nutzen. Hier wird der Text in den Zeilen 1 und 2 angezeigt und nach 30 Sekunden gelöscht: "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" lcd.static_text(1, “c”, “World News:”)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" lcd.static_text(2, “l”, msg)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" time.sleep(30)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" lcd.cls()"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This script is useful for displaying a short static message, but it's not much use for an RSS feed as it only displays the first 16 characters that fit. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="-------Instead we can use the function called scroll_clock, which displays the time on one line, and scrolls the full text along the the second. However, in order to update the LCD by moving one character along at a time, the function loops infinitely - and therefore no code after this is  executed. To get around this, we can run this function in a thread (a simultaneously running process) so we can then continue to give further  commands (in this case to check for the latest news updates). Here we set up a thread process using scroll_clock, start the thread, wait 60 seconds, update &quot;msg&quot; to the latest RSS feed, and stop the thread. The while loop then repeats to continue scrolling the text. In general, it's bad practice to terminate a thread, but in this case we know that scroll_clock is an infinite loop that will never complete."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" while True:"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   p = Process(target=lcd.scroll_clock,"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="      args=(1, &quot;c&quot;, 0.3, msg))"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   p.start()"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   time.sleep(60.0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   msg=feedparser.parse('http://feeds."/>
-            <para PARENT="Code"/>
-            <ITEXT CH="bbci.co.uk/news/rss.xml?edition=uk').entries[0].title"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   p.terminate()"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The scroll_clock function takes four arguments. Firstly, choose either 1 or 2  to determine which line the clock is placed on. Secondly, choose “l”, “r” or “c” to set the clock alignment. Thirdly, specify the scrolling speed, and the final argument takes any string of characters - here the variable msg (which contains RSS feed text). "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="RSS feeds of many different topics are widely available on the internet, but there are many other things you could use this display for too - this script is just the start for your own experiments!"/>
-            <trail PARENT="Body text"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="361.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="11" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="26" BACKITEM="-1">
+            <ITEXT FONTSIZE="11" CH="Für viele Raspberry Pi Projekte ist eine optische Ausgabe wichtig, ein Standard HDMI-Bildschirm ist dafür jedoch meist zu teuer oder unnötig. Wenn Du zum Beispiel einen Temperatur-Sensor hast und nur den aktuellen Wert anzeigen willst; oder wenn man den Namen eines Internet Radios von einem &quot;headless&quot; Rasberry Pi anzeigen will. Alternativ könnte man auch ein eigenständiges Display für die neuesten Tweets haben."/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Diese Anleitung erklärt Dir, wie Du eine preiswertes Flüssigkristallanzeige (LCD) Typ HD44780 (16 Zeichen, 2 Zeilen) an den GPIO Anschluss Deines Rasberry Pi anschliesst und die Zeit sowie neuesten Nachrichten des BBC RSS-Feeds anzeigen lässt."/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Auf der AndyPi Webseite ("/>
+            <ITEXT FONTSIZE="11" FCOLOR="Blue" FSHADE="100" CH="http://andypi.co.uk/"/>
+            <ITEXT FONTSIZE="11" CH=") findest Du weitere Videos und Anleitungen zur Nutzung des LCD. Zum Beispiel kannst Du es zur Anzeige von Medien-Informationen, wie etwa mp3-Titeln von RaspBMC oder RaspFi, nutzen."/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Hardware Aufbau"/>
+            <para PARENT="Body title" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Hier ist eine kurze Beschreibung der Pin-Belegungen, eine Liste der kompletten Bauteile und detaillierte Bauanleitung ist auf der Webseite "/>
+            <ITEXT FONTSIZE="11" FCOLOR="Blue" FSHADE="100" CH="http://andypi.co.uk/"/>
+            <ITEXT FONTSIZE="11" CH=" verfügbar. Du kannst die Bauteile einzeln kaufen und selbst zusammen bauen oder einen kompletten, vorgefertigten Bausatz bei AndyPi für £12.99 + Porto (nur EU) erwerben."/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Für die Kontrasteinstellung verlöte auf dem LCD einen regelbaren Widerstand (10 kΩ) zwischen VSS (1) und VO (3), verbinde K (16) mit RW (5) und K (16) mit VSS (1). Die Verbindungen vom LCD zum GPIO sind wie folgt:"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Software Konfiguration"/>
+            <para PARENT="Body title" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Beginne mit der aktuellen Version von Rasbian (stelle sicher, dass Dein System aktuell ist), und installiere einige Python bezogene Tools:"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" sudo apt-get update"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" sudo apt-get install -y python-dev \"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" python-setuptools python-pip"/>
+            <para PARENT="Code" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Wir müssen einige Python-Module installieren: wiringpi für die GPIO Steuerung; feedparser um die RSS Feeds zu lesen und das processing Modul für das Threading (wird später erklärt):"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" sudo pip install feedparser \"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" processing wiringpi"/>
+            <para PARENT="Code" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Zuletzt wird die AndyPi LCD Python Klasse heruntergeladen:"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" sudo wget http://andypi.co.uk/downloads/"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" AndyPi_LCD.py"/>
+            <para PARENT="Code" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Python script"/>
+            <para PARENT="Body title" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Die AndyPi LCD Klasse enthält eine Anzahl an Funktionen um eine einfache Kontrolle des LCD zu ermöglichen. Davon werden wir einige nutzen. Erstelle ein neues Script (im selben Ordner wie AndyPi_LCD.py) mit dem Inhalt:"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" #!/usr/bin/python"/>
+            <para PARENT="Code" LINESP="14"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" from AndyPi_LCD import AndyPi_LCD"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" from processing import Process"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" import time"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" import feedparser"/>
+            <para PARENT="Code" LINESP="14"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" lcd=AndyPi_LCD()"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" lcd.lcd_init()"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" lcd.led(512)"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" msg = feedparser.parse( 'http://feeds.bbci.co.uk/news/rss.xml?edition=uk').entries[0].title"/>
+            <para PARENT="Code" LINESP="14"/>
+            <tab FONTSIZE="11"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Nachdem die benötigten Module importiert wurden setzen wir die Variable &quot;lcd&quot; als die AndyPi_LCD() Klasse, initialisieren das LCD und stellen die Helligkeit des Hintergrundbeleuchtung ein (0=aus, 512=volle Helligkeit). Nun können wir das feedparser Modul nutzen um die Variable &quot;msg&quot; auf den ersten Titel des BBC world news feed zu setzen. "/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Um Text anzuzeigen kannst Du die AndyPi_LCD Funktion static_text() nutzen. Hier wird der Text in den Zeilen 1 und 2 angezeigt und nach 30 Sekunden gelöscht: "/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" lcd.static_text(1, “c”, “World News:”)"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" lcd.static_text(2, “l”, msg)"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" time.sleep(30)"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" lcd.cls()"/>
+            <para PARENT="Code" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Dieses Script ist nützlich für die Anzeige eines kurzen statischen Textes. Da es nur die ersten 16 Zeichen darstellt hilft es nicht viel für einen RSS Feed. "/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="Stattdessen können wir die Funktion scroll_clock nutzen, welche die Zeit auf einer Zeile und den vollen Text auf der zweiten Zeile anzeigt. ------However, in order to update the LCD by moving one character along at a time, the function loops infinitely - and therefore no code after this is  executed. To get around this, we can run this function in a thread (a simultaneously running process) so we can then continue to give further  commands (in this case to check for the latest news updates). Here we set up a thread process using scroll_clock, start the thread, wait 60 seconds, update &quot;msg&quot; to the latest RSS feed, and stop the thread. The while loop then repeats to continue scrolling the text. In general, it's bad practice to terminate a thread, but in this case we know that scroll_clock is an infinite loop that will never complete."/>
+            <para PARENT="Body text" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH=" while True:"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="   p = Process(target=lcd.scroll_clock,"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="      args=(1, &quot;c&quot;, 0.3, msg))"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="   p.start()"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="   time.sleep(60.0)"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="   msg=feedparser.parse('http://feeds."/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="bbci.co.uk/news/rss.xml?edition=uk').entries[0].title"/>
+            <para PARENT="Code" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="   p.terminate()"/>
+            <para PARENT="Code" LINESP="14"/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="The scroll_clock function takes four arguments. Firstly, choose either 1 or 2  to determine which line the clock is placed on. Secondly, choose “l”, “r” or “c” to set the clock alignment. Thirdly, specify the scrolling speed, and the final argument takes any string of characters - here the variable msg (which contains RSS feed text). "/>
+            <para PARENT="Body text" LINESP="14"/>
+            <ITEXT FONTSIZE="11" CH="RSS feeds of many different topics are widely available on the internet, but there are many other things you could use this display for too - this script is just the start for your own experiments!"/>
+            <trail PARENT="Body text" LINESP="14"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614174" YPOS="958.505590555119" WIDTH="538.588346456693" HEIGHT="703.432992122047" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 703.433 538.588 703.433 538.588 703.433 538.588 703.433 0 703.433 0 703.433 0 703.433 0 703.433 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 703.433 538.588 703.433 538.588 703.433 538.588 703.433 0 703.433 0 703.433 0 703.433 0 703.433 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="25">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614174" YPOS="958.505590555119" WIDTH="538.588346456693" HEIGHT="703.432992122047" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="11" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 703.433 538.588 703.433 538.588 703.433 538.588 703.433 0 703.433 0 703.433 0 703.433 0 703.433 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 703.433 538.588 703.433 538.588 703.433 538.588 703.433 0 703.433 0 703.433 0 703.433 0 703.433 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="25">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="91.4995275592598" YPOS="893.386771653418" WIDTH="612.2834646" HEIGHT="36.8503937" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -532,7 +531,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="135.45385822126" YPOS="1683.50236220591" WIDTH="184.560629967717" HEIGHT="26.9426771641736" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 184.561 0 184.561 0 184.561 0 184.561 0 184.561 26.9427 184.561 26.9427 184.561 26.9427 184.561 26.9427 0 26.9427 0 26.9427 0 26.9427 0 26.9427 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 184.561 0 184.561 0 184.561 0 184.561 0 184.561 26.9427 184.561 26.9427 184.561 26.9427 184.561 26.9427 0 26.9427 0 26.9427 0 26.9427 0 26.9427 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FCOLOR="White" FSHADE="100" CH="This article is sponsored by:"/>
+            <ITEXT FCOLOR="White" FSHADE="100" CH="Dieser Artikel wird gesponsort von:"/>
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -544,15 +543,15 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="1673.59464566929" WIDTH="538.588346456693" HEIGHT="28.3464566929134" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://andypi.co.uk/" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text82" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 28.3465 538.588 28.3465 538.588 28.3465 538.588 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 28.3465 538.588 28.3465 538.588 28.3465 538.588 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="560.029606299213" YPOS="300.018897637796" WIDTH="60.0037795275591" HEIGHT="20.0012598425197" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://andypi.co.uk/" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text80" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 60.0038 0 60.0038 0 60.0038 0 60.0038 0 60.0038 20.0013 60.0038 20.0013 60.0038 20.0013 60.0038 20.0013 0 20.0013 0 20.0013 0 20.0013 0 20.0013 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 60.0038 0 60.0038 0 60.0038 0 60.0038 0 60.0038 20.0013 60.0038 20.0013 60.0038 20.0013 60.0038 20.0013 0 20.0013 0 20.0013 0 20.0013 0 20.0013 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="748.709291338583" WIDTH="99.2125984251969" HEIGHT="11.3385826771654" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://andypi.co.uk/" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text81" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 99.2126 0 99.2126 0 99.2126 0 99.2126 0 99.2126 11.3386 99.2126 11.3386 99.2126 11.3386 99.2126 11.3386 0 11.3386 0 11.3386 0 11.3386 0 11.3386 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 99.2126 0 99.2126 0 99.2126 0 99.2126 0 99.2126 11.3386 99.2126 11.3386 99.2126 11.3386 99.2126 11.3386 0 11.3386 0 11.3386 0 11.3386 0 11.3386 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="1673.59464566929" WIDTH="538.588346456693" HEIGHT="28.3464566929134" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://andypi.co.uk/" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text82" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 28.3465 538.588 28.3465 538.588 28.3465 538.588 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 28.3465 538.588 28.3465 538.588 28.3465 538.588 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
