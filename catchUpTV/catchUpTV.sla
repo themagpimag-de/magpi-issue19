@@ -211,7 +211,7 @@
             <ITEXT CH="Möchtest Du Fernsehprogramme mit Deinem Raspberry Pi schauen?"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="• No need to buy a smart TV to get your HDTV to connect to catch-up TV services such as BBC iPlayer and ITV Player in the UK, or CTV and Space and Bravo in Canada, or RTE1 and RTE2 in Ireland or Network10 in Australia."/>
+            <ITEXT CH="• Kein Smart-TV nötig um von Deinem HDTV auf Mediatheken wie die von ARD, ZDF oder MTV zuzugreifen."/>
             <para PARENT="Body text"/>
             <ITEXT CH="• No need to have your Raspberry Pi keyboard and mouse and their cables spoiling the look of your HDTV."/>
             <para PARENT="Body text"/>
@@ -219,34 +219,31 @@
             <para PARENT="Body text"/>
             <ITEXT CH="• Use a remote control app on your Android, iOS or Blackberry smartphone to control XBMC via your home Wifi so you can select and watch catch-up TV programmes on your HDTV."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="• No Linux commands are needed to install or use OpenELEC with the Raspberry Pi."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="My style of television watching over the last few years has switched from live viewing and recording, to predominantly using catch-up TV. Catch-up TV is particularly helpful when a missed programme gets a good review the next day from friends or from TV reviews in newspapers or on the web."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="I am going to show you how to install catch-up TV services using XBMC and the OpenELEC distribution on a Raspberry Pi to work with your HDTV. It takes about 60 minutes to set up and requires no use of Linux commands either!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Permanent components"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="• Um OpenELEC auf Deinem Rasperry Pi zu installieren oder zu benutzen benötigst Du keine Linux-Befehle."/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="Die Art wie ich fernsehe hat sich über die Jahre gewandelt. Früher habe ich hauptsächlich das live Programm und Aufnahmen gesehen, heute nutze ich die Mediatheken. Das ist vor allem dann praktisch, wenn man eine Sendung verpasst hat, von der man am nächsten Tag von Freunden oder aus der Presse erfährt das sie gut war."/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="Ich zeige Dir, wie man Mediatheken-Dienste mit XBMC und OpenELEC auf einem Raspberry Pi für Deinen HDTV installiert. Das dauert ca. 60 Minuten und  erfordert noch nicht mal irgendwelche Linux-Kommandos!"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="Zu verbauende Komponenten"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <para PARENT="Body text" ALIGN="0"/>
             <ITEXT CH="• Raspberry Pi Modell A oder Modell B."/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="• Guters 5V Netzteil für den Raspberry Pi (mindestens 700mA oder mehr)."/>
+            <ITEXT CH="• Gutes 5V Netzteil für den Raspberry Pi (mindestens 700mA oder mehr)."/>
             <para PARENT="Body text" ALIGN="0"/>
             <ITEXT CH="• HDMI-Kabel um den Raspberry Pi and Deinen HDTV anzuschliessen."/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="• W-LAN nano USB Adapter falls Du keinen einfachen Internetanschluss per Kabel herstellen kannst (der Adapter von "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://www.thepihut.com"/>
-            <ITEXT CH=" kommt mit den vorinstallierten Treibern aus und benötigt keine extra Stromversorgung)."/>
+            <ITEXT CH="• W-LAN nano USB Adapter falls Du keinen einfachen Internetanschluss per Kabel herstellen kannst (der Adapter von http://www.thepihut.com kommt mit den vorinstallierten Treibern aus und benötigt keine extra Stromversorgung)."/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="• 4GB+ SD-Karte mit der neuesten NOOBS Version von "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://www.raspberrypi.org"/>
-            <ITEXT CH="."/>
+            <ITEXT CH="• 4GB+ SD-Karte mit der neuesten NOOBS Version von http://www.raspberrypi.org."/>
             <para PARENT="Body text" ALIGN="0"/>
             <ITEXT CH="• Android, iOS or Blackberry 10 Gerät mit einer Fernbedienungs-App für  XBMC wie z.B. XRMT für Blackberry 10 OS, Official XMBC Remote  für Android, oder Official XMBC Remote für iOS."/>
             <para PARENT="Body text" ALIGN="0"/>
+            <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Hinweis:"/>
             <ITEXT CH=" The Raspberry Pi USB ports may not be able to supply enough current for certain Wifi dongles. This can result in video stuttering.  Assuming you have a good connection, the solution is to use a powered USB hub with a minimum 2A power supply.  Some hubs will also back power the Raspberry Pi so you only need the one power supply.  Check "/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://elinux.org"/>
@@ -258,17 +255,15 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Schritt 1. Get NOOBS"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="Copy the latest NOOBS distribution onto a 4GB+ SD card. When finshed insert the SD card into the Raspberry Pi, plug in the Wifi USB dongle and use a HDMI cable to connect the Raspberry Pi to your HDTV. Plug in the power adaptor and boot up the Raspberry Pi. The first time you start NOOBS you will be asked to choose what operating system to install. Choose "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="OpenELEC"/>
-            <ITEXT CH=". This will take a few minutes to install, after which you can reboot your Raspberry Pi."/>
+            <ITEXT CH="Kopiere die aktuellste NOOBS Distribution auf eine 4GB+ SD Karte. Anschliessend steckst Du die SD-Karte in den Raspberry Pi und schliesst W-LAN Adapter, plug in the Wifi USB dongle and use a HDMI cable to connect the Raspberry Pi to your HDTV. Plug in the power adaptor and boot up the Raspberry Pi. The first time you start NOOBS you will be asked to choose what operating system to install. Choose OpenELEC. This will take a few minutes to install, after which you can reboot your Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Schritt 2. XBMC und Netzwerke"/>
-            <para PARENT="Body sub-title"/>
+            <para PARENT="Body text"/>
             <ITEXT CH="Hinweis: Wenn Du einen Raspberry Pi Modell A benutzt, dann benötigst Du für diesen Schritt einen aktiven USB-Hub um einen W-LAN Adapter und eine Maus anzuschliessen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Nachdem Dein Raspberry Pi hochgefahren ist wird sich XMBC mit seinem &quot;Confluence&quot; Hauptbildschirm präsentieren (Hintergrund mit blauen Blasen) followed by an initial setup wizard. Here you choose your region, provide a friendly network name then choose from a list of available wireless connections. You will need to know your wireless connection name and security passphrase."/>
+            <ITEXT CH="Nachdem Dein Raspberry Pi hochgefahren ist wird sich XMBC mit seinem &quot;Confluence&quot; Hauptbildschirm präsentieren (Hintergrund mit blauen Blasen) gefolgt vom initialen Setup-Wizard. Hier wählst Du Deine Region, einen Netzwerknamen und die richtige W-LAN-Verbindung. Dafür benötigst Du den Namen Deines Netzwerks und das Passwort."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="By default your network IP address and DNS servers will be automatically configured. However you may want to change the DNS servers to watch overseas programming using services like "/>
