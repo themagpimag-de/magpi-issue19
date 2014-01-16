@@ -191,7 +191,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="413.34708662126" YPOS="72.2047243826773" WIDTH="279.65291338874" HEIGHT="28.4153543574803" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 28.4154 279.653 28.4154 279.653 28.4154 279.653 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 28.4154 279.653 28.4154 279.653 28.4154 279.653 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="CATCH-UP TV"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="Mediatheken-TV"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -209,312 +209,158 @@
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="27" BACKITEM="-1">
             <ITEXT CH="Möchtest Du Fernsehprogramme mit Deinem Raspberry Pi schauen?"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="• Kein Smart-TV nötig um von Deinem HDTV auf Mediatheken wie die von ARD, ZDF oder MTV zuzugreifen."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="• No need to have your Raspberry Pi keyboard and mouse and their cables spoiling the look of your HDTV."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="• Use a Raspberry Pi with a Wifi USB dongle running OpenELEC - a compact, high performance Linux distribution that has XBMC media centre software installed - and then hide the Raspberry Pi behind the HDTV."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="• Use a remote control app on your Android, iOS or Blackberry smartphone to control XBMC via your home Wifi so you can select and watch catch-up TV programmes on your HDTV."/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="• Benötigt keine Maus oder Tastatur, die das Aussehen des TV verschandeln würden."/>
+            <para/>
+            <ITEXT CH="• Benutze einen Raspberry Pi mit W-LAN-Adapter auf dem OpenELEC läuft - einem kompakten, hoch performanten Linux mit vorinstalliertem XBMC Media-Center - und versteck den Raspberry Pi hinter dem Fernseher."/>
+            <para/>
+            <ITEXT CH="• Benutze eine Fernbedienungs-App auf Deinem Android, iOS oder Blackberry Smartphone um XBMC über Dein W-LAN zu kontrollieren und so die Mediatheken auf Deinem TV zu steuern."/>
+            <para/>
             <ITEXT CH="• Um OpenELEC auf Deinem Rasperry Pi zu installieren oder zu benutzen benötigst Du keine Linux-Befehle."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
+            <para/>
             <ITEXT CH="Die Art wie ich fernsehe hat sich über die Jahre gewandelt. Früher habe ich hauptsächlich das live Programm und Aufnahmen gesehen, heute nutze ich die Mediatheken. Das ist vor allem dann praktisch, wenn man eine Sendung verpasst hat, von der man am nächsten Tag von Freunden oder aus der Presse erfährt das sie gut war."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
+            <para/>
             <ITEXT CH="Ich zeige Dir, wie man Mediatheken-Dienste mit XBMC und OpenELEC auf einem Raspberry Pi für Deinen HDTV installiert. Das dauert ca. 60 Minuten und  erfordert noch nicht mal irgendwelche Linux-Kommandos!"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
+            <para/>
             <ITEXT CH="Zu verbauende Komponenten"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
+            <para/>
             <ITEXT CH="• Raspberry Pi Modell A oder Modell B."/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
             <ITEXT CH="• Gutes 5V Netzteil für den Raspberry Pi (mindestens 700mA oder mehr)."/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
             <ITEXT CH="• HDMI-Kabel um den Raspberry Pi and Deinen HDTV anzuschliessen."/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
             <ITEXT CH="• W-LAN nano USB Adapter falls Du keinen einfachen Internetanschluss per Kabel herstellen kannst (der Adapter von http://www.thepihut.com kommt mit den vorinstallierten Treibern aus und benötigt keine extra Stromversorgung)."/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
             <ITEXT CH="• 4GB+ SD-Karte mit der neuesten NOOBS Version von http://www.raspberrypi.org."/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <para/>
             <ITEXT CH="• Android, iOS or Blackberry 10 Gerät mit einer Fernbedienungs-App für  XBMC wie z.B. XRMT für Blackberry 10 OS, Official XMBC Remote  für Android, oder Official XMBC Remote für iOS."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" CH="Hinweis:"/>
-            <ITEXT CH=" The Raspberry Pi USB ports may not be able to supply enough current for certain Wifi dongles. This can result in video stuttering.  Assuming you have a good connection, the solution is to use a powered USB hub with a minimum 2A power supply.  Some hubs will also back power the Raspberry Pi so you only need the one power supply.  Check "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://elinux.org"/>
-            <ITEXT CH=" for a list of known good hubs."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Installationsanweisungen"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Schritt 1. Get NOOBS"/>
-            <para PARENT="Body sub-title"/>
-            <ITEXT CH="Kopiere die aktuellste NOOBS Distribution auf eine 4GB+ SD Karte. Anschliessend steckst Du die SD-Karte in den Raspberry Pi und schliesst W-LAN Adapter, plug in the Wifi USB dongle and use a HDMI cable to connect the Raspberry Pi to your HDTV. Plug in the power adaptor and boot up the Raspberry Pi. The first time you start NOOBS you will be asked to choose what operating system to install. Choose OpenELEC. This will take a few minutes to install, after which you can reboot your Raspberry Pi."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Hinweis: Die Raspberry Pi USB Anschlüsse liefern für manche W-LAN-Adapter u.U. zu wenig Strom, was zu ruckelnden Videos führt. Die Lösung  ist dann einen aktiven USB Hub mit mindestens 2A Stromversorgung ein zu setzen. Manche Hubs können sogar den Rapsberry Pi mit Strom versorgen, so dass dann nur ein Netzteil benötigt wird. Auf http://elinux.org findest Du eine liste an guten Hubs.Thenstallationsanweisungen"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Schritt 1. NOOBS besorgen"/>
+            <para/>
+            <ITEXT CH="Kopiere die aktuellste NOOBS Distribution auf eine 4GB+ SD Karte. Anschliessend steckst Du die SD-Karte in den Raspberry Pi und schliesst W-LAN Adapter, und HDTV (über ein HDMI-Kabel) an. Schliess das Netzteil an und fahre den Raspberry Pi hoch. Wenn Du NOOBS das erste Mal startest, wwirst Du dach dem zu installierenden Betriebssystem gefragt. Wähle OpenELEC. Die Installation wird ein paar Minuten dauern. Danach rebootest Du Deinen Raspberry Pi. "/>
+            <para/>
+            <para/>
             <ITEXT CH="Schritt 2. XBMC und Netzwerke"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="Hinweis: Wenn Du einen Raspberry Pi Modell A benutzt, dann benötigst Du für diesen Schritt einen aktiven USB-Hub um einen W-LAN Adapter und eine Maus anzuschliessen."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="Nachdem Dein Raspberry Pi hochgefahren ist wird sich XMBC mit seinem &quot;Confluence&quot; Hauptbildschirm präsentieren (Hintergrund mit blauen Blasen) gefolgt vom initialen Setup-Wizard. Hier wählst Du Deine Region, einen Netzwerknamen und die richtige W-LAN-Verbindung. Dafür benötigst Du den Namen Deines Netzwerks und das Passwort."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="By default your network IP address and DNS servers will be automatically configured. However you may want to change the DNS servers to watch overseas programming using services like "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://www.unblock-us.com"/>
-            <ITEXT CH=", or you may want to change the IP address to use a static IP. If you want to change the network settings later, from the main screen select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SYSTEM"/>
-            <ITEXT CH=", "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="OpenELEC"/>
-            <ITEXT CH=" and then click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Connections"/>
-            <ITEXT CH=". Click on your connection and choose "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Edit"/>
-            <ITEXT CH=" from the pop-up menu."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="A static IP address tends to be more reliable because it remains fixed and so the remote app on your smartphone will always connect. The IP address created using DHCP can vary depending on what other devices are connected to the broadband router."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Setting up a static IP (optional)"/>
-            <para PARENT="Body sub-title"/>
-            <ITEXT CH="Choose to "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Edit"/>
-            <ITEXT CH=" your connection, as described above and click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="IPv4"/>
-            <ITEXT CH=". You will see the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="IP Address Method"/>
-            <ITEXT CH=" is currently set to "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="DHCP"/>
-            <ITEXT CH=". Click on this and change it to "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Manual"/>
-            <ITEXT CH=". Now click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="IP Address"/>
-            <ITEXT CH=" and enter an unused address within the range permitted by your broadband router e.g. 192.168.1.50. You can leave the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Subnet Mask "/>
-            <ITEXT CH="(e.g. 255.255.255.0) and "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Default Gateway"/>
-            <ITEXT CH=" (e.g. 192.168.1.254) at their default settings."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="To change the DNS settings for your connection choose "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="DNS servers"/>
-            <ITEXT CH=". You will see options to enter IP addresses for up to three nameservers. By default these will already have the IP addresses of the DNS servers from your internet provider, but you can choose to use others. For example OpenDNS provides enhanced security using its own free to use DNS server IP addresses at "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://www.opendns.com"/>
-            <ITEXT CH=". ["/>
-            <ITEXT FONT="FreeSans Oblique" CH="Ed: I changed these to the Unblock-Us DNS servers so, as an ex-pat, I can still watch BBC iPlayer content in Canada"/>
-            <ITEXT CH="]."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="At this point it is a good idea to click the Power button on the main screen and reboot the Raspberry Pi. When OpenELEC restarts you should have a working network connection."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Standardmässig werden Deine IP-Adresse und DNS-Server automatisch konfiguriert. U.U. möchtest Du einen anderen DNS-Server eintragen um TV-Programme  anderer Länder zu empfangen (z.B. über Dienste wie http://www.unblock-us.com) oder Du möchtest eine feste IP-Adresse verwenden. Wenn Du die Netzwerkeinstellungen später noch veränder möchtest, wählst Du auf dem Hauptbildschirm SYSTEM, OpenELEC und dann Connections. Klicke auf Deine Verbindung und wähle Edit im aufklappenden Menü."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Eine feste IP-Adresse wird etwas zuverlässiger sein weil sie gleich bleibt und sich somit z.B. Dein Smartphone leichter verbinden kann. Die vom DHCP zugewiesene IP can sich - je nachdem welche Geräte in Deinem Netz sind- verändern."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Eine feste IP einrichten (optional)"/>
+            <para/>
+            <ITEXT CH="Wähle die Verbindungseinstellungen wie oben beschrieben und klick auf IPv4. du wirst sehen, dass die IP-Adress vergabe momentan auf DHCP steht. Klick drauf und setze sie auf Manuell. Klicke jetzt auf IP-Adresse und gib eine unbenutzte Adresse aus Deinem Netzwerk wie z.B. 192.168.1.50 ein. You can leave the Subnet Mask (e.g. 255.255.255.0) and Default Gateway (e.g. 192.168.1.254) at their default settings."/>
+            <para/>
+            <para/>
+            <ITEXT CH="To change the DNS settings for your connection choose DNS servers. You will see options to enter IP addresses for up to three nameservers. By default these will already have the IP addresses of the DNS servers from your internet provider, but you can choose to use others. For example OpenDNS provides enhanced security using its own free to use DNS server IP addresses at http://www.opendns.com. [Ed: I changed these to the Unblock-Us DNS servers so, as an ex-pat, I can still watch BBC iPlayer content in Canada]."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Jetzt ist ein guter Zeitpunkt um auf den Ein-/Ausschalter auf dem Hauptbildschirm zu drücken und den Raspberry Pi neu zu starten. Sobald OpenELEC wieder gestartet ist solltest Du eien funktionierende Netzwerkverbindung haben."/>
+            <para/>
+            <para/>
             <ITEXT CH="Schritt 3. weitere wichtige XBMC Features"/>
-            <para PARENT="Body sub-title"/>
-            <ITEXT CH="1. Is the display too large for your screen or do you see a black border? To change the screen size select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SYSTEM"/>
-            <ITEXT CH=" then "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Settings"/>
-            <ITEXT CH=" and click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Appearance"/>
-            <ITEXT CH=". In the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Skin"/>
-            <ITEXT CH=" section, change "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Zoom"/>
-            <ITEXT CH=" (up and down keys) to set an appropriate reduction."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="2. Stop RSS feeds across the bottom of the Confluence screen. From the Confluence screen select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SYSTEM"/>
-            <ITEXT CH=" then "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Settings"/>
-            <ITEXT CH=" and click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Appearance"/>
-            <ITEXT CH=". In the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Skin"/>
-            <ITEXT CH=" section click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Show RSS news feeds"/>
-            <ITEXT CH=" to turn it off."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="3. To allow remote wireless control of XBMC select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SYSTEM"/>
-            <ITEXT CH=" then "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Settings"/>
-            <ITEXT CH=" and click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Services"/>
-            <ITEXT CH=". In the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Webserver"/>
-            <ITEXT CH=" section click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Allow control of XBMC via HTTP"/>
-            <ITEXT CH=" to turn this option on. Note the default username is "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="xbmc"/>
-            <ITEXT CH=" with no password. You can optionally change these. In the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Remote control"/>
-            <ITEXT CH=" section click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Allow programs on other systems to control XBMC"/>
-            <ITEXT CH=". "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="4. To ensure OpenELEC has your home workgroup from the main screen select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SYSTEM"/>
-            <ITEXT CH=" then "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Settings"/>
-            <ITEXT CH=" and click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Services"/>
-            <ITEXT CH=". In the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SMB client"/>
-            <ITEXT CH=" section the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Workgroup"/>
-            <ITEXT CH=" option is set to WORKGROUP by default. If your home network has its own workgroup name then you must change WORKGROUP to your home workgroup name.  You can find out your home workgroup name from your Windows PC by opening the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Control Panel"/>
-            <ITEXT CH=", open the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="System and Security"/>
-            <ITEXT CH=" category then click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="System"/>
-            <ITEXT CH=". The workgroup is shown near the bottom."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Schritt 4. Install TV catch-up files "/>
-            <para PARENT="Body sub-title"/>
+            <para/>
+            <ITEXT CH="1. Ist der Bildschirm zu groß für Deinen TV oder siehst Du schwarze Ränder? Um die Bildschirmgrösse zu ändern, wähle SYSTEM, dann Settings und klick auf Appearance.  In the Skin section, change Zoom (up and down keys) to set an appropriate reduction."/>
+            <para/>
+            <para/>
+            <ITEXT CH="2. Stop RSS feeds across the bottom of the Confluence screen. From the Confluence screen select SYSTEM then Settings and click on Appearance. In the Skin section click on Show RSS news feeds to turn it off."/>
+            <para/>
+            <para/>
+            <ITEXT CH="3. To allow remote wireless control of XBMC select SYSTEM then Settings and click on Services. In the Webserver section click on Allow control of XBMC via HTTP to turn this option on. Note the default username is xbmc with no password. You can optionally change these. In the Remote control section click on Allow programs on other systems to control XBMC."/>
+            <para/>
+            <para/>
+            <ITEXT CH="4. To ensure OpenELEC has your home workgroup from the main screen select SYSTEM then Settings and click on Services. In the SMB client section the Workgroup option is set to WORKGROUP by default. If your home network has its own workgroup name then you must change WORKGROUP to your home workgroup name.  You can find out your home workgroup name from your Windows PC by opening the Control Panel, open the System and Security category then click on System. The workgroup is shown near the bottom."/>
+            <para/>
+            <ITEXT CH="Schritt 4. Install TV catch-up files"/>
+            <para/>
             <ITEXT CH="Add-ons need to be added to XBMC in order to use catch-up TV. Here are some examples that have been tested to work."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="UK:"/>
-            <para PARENT="Body text"/>
+            <para/>
             <ITEXT CH="BBC iPlayer         "/>
-            <para PARENT="Body text"/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://code.google.com/p/xbmc-iplayerv2/ downloads/list"/>
-            <ITEXT CH=" "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="ITV player"/>
-            <tab/>
-            <para PARENT="Body text"/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://code.google.com/p/xbmc-itv-player/ downloads/list"/>
-            <ITEXT CH=" "/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="http://code.google.com/p/xbmc-iplayerv2/ downloads/list"/>
+            <para/>
+            <ITEXT CH="ITV player    "/>
+            <para/>
+            <ITEXT CH="http://code.google.com/p/xbmc-itv-player/ downloads/list"/>
+            <para/>
             <ITEXT CH="Ireland:"/>
-            <para PARENT="Body text"/>
-            <ITEXT FCOLOR="Blue" CH="http://mossy-xbmc-repo.googlecode.com/ files/plugin.video.irishtv-2.0.11.zip"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="http://mossy-xbmc-repo.googlecode.com/ files/plugin.video.irishtv-2.0.11.zip"/>
+            <para/>
             <ITEXT CH="Canada:"/>
-            <para PARENT="Body text"/>
-            <ITEXT FCOLOR="Blue" CH="http://goo.gl/j6Fw5K"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="http://goo.gl/j6Fw5K"/>
+            <para/>
             <ITEXT CH="Australia:"/>
-            <para PARENT="Body text"/>
-            <ITEXT FCOLOR="Blue" CH="http://xbmc-catchuptv-au.googlecode.com/ files/plugin.video.catchuptv.au.ten-0.4.0.zip"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="http://xbmc-catchuptv-au.googlecode.com/ files/plugin.video.catchuptv.au.ten-0.4.0.zip"/>
+            <para/>
+            <para/>
             <ITEXT CH="The Canadian add-in is particularly good as it covers 20 stations, but just like the BBC and ITV add-ins, it is region locked. Fortunately Australia's Network10 and Ireland's RTE stations appear to be freely available to all."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Using your PC, copy the latest zip files onto a USB memory stick without unzipping them.  Now plug the USB memory stick into the USB port of your Raspberry Pi and power-up the Raspberry Pi.  To install these add-ons, from the main menu select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="VIDEOS"/>
-            <ITEXT CH=" then "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Add-ons"/>
-            <ITEXT CH=" and click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Get More"/>
-            <ITEXT CH=". At the top of the list click on  "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH=".."/>
-            <ITEXT CH=" (i.e. two dots). At the top of the next list again click on "/>
-            <ITEXT FONT="Monaco Regular" CH=".."/>
-            <ITEXT CH=" (i.e. two dots). Now click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Install from zip file"/>
-            <ITEXT CH=". A new window will pop-up.  Select your USB memory stick. If it is not visible remove it and insert it again.  "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Navigate to the first add-on you wish to install and click it. It gets installed at this point within about 30-40 seconds but it is not obvious. You will be returned to the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Install from zip file"/>
-            <ITEXT CH=" menu and you may momentarily observe (bottom right of the screen) that the new add-on has been installed.  Check by returning to "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="VIDEOS"/>
-            <ITEXT CH=" and selecting "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Add-ons"/>
-            <ITEXT CH=" and you should see the name of the add-on you just installed. If it is absent, wait a few minutes for it to appear and if still absent reboot your Raspberry Pi.  Repeat for each add-on, one at a time."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Using your PC, copy the latest zip files onto a USB memory stick without unzipping them.  Now plug the USB memory stick into the USB port of your Raspberry Pi and power-up the Raspberry Pi.  To install these add-ons, from the main menu select VIDEOS then Add-ons and click on Get More. At the top of the list click on  .. (i.e. two dots). At the top of the next list again click on .. (i.e. two dots). Now click on Install from zip file. A new window will pop-up.  Select your USB memory stick. If it is not visible remove it and insert it again.  "/>
+            <para/>
+            <para/>
+            <ITEXT CH="Navigate to the first add-on you wish to install and click it. It gets installed at this point within about 30-40 seconds but it is not obvious. You will be returned to the Install from zip file menu and you may momentarily observe (bottom right of the screen) that the new add-on has been installed.  Check by returning to VIDEOS and selecting Add-ons and you should see the name of the add-on you just installed. If it is absent, wait a few minutes for it to appear and if still absent reboot your Raspberry Pi.  Repeat for each add-on, one at a tNoe."/>
+            <para/>
+            <para/>
             <ITEXT CH="Schritt 5. XBMC Fernbedienung  "/>
-            <para PARENT="Body sub-title"/>
-            <ITEXT CH="Download and install the Official XBMC Remote  app auf Dein Android oder iOS Gerät, oder installiere XRMT für Dein Blackberry 10 OS Gerät.  "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="As an example, here is how to configure XRMT on your Blackberry 10 OS device.  Once installed open the app and click the three dots icon (bottom right) and select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Add Server"/>
-            <ITEXT CH=". For "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Server name"/>
-            <ITEXT CH=" enter "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="openelec"/>
-            <ITEXT CH=" (lower case). For "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Server IP address"/>
-            <ITEXT CH=" enter the address that you set up for the Raspberry Pi in step 2 on page 23. Leave the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Port code"/>
-            <ITEXT CH=" as "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="9090"/>
-            <ITEXT CH=" then click the icon at bottom left.  "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Now scroll down from the top of the app, click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Settings"/>
-            <ITEXT CH=" and change the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Auto connect"/>
-            <ITEXT CH="  by clicking on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="openelec"/>
-            <ITEXT CH=" below it. Close the settings screen. The app is now ready to use. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Once you have installed an XBMC remote app on your smartphone you are ready to control XBMC without a mouse or keyboard. Simply use the remote control app to navigate the XMBC Confluence screen, select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="VIDEOS"/>
-            <ITEXT CH=" and then select "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Add-ons"/>
-            <ITEXT CH=". Your add-ons will be displayed.  Simply click on an add-on such as iPlayer to run it.  Enjoy the catch-up TV programmes."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="Lade die 'Official XBMC Remote'  App auf Dein Android oder iOS Gerät, oder installiere XRMT für Dein Blackberry 10 OS Gerät.  "/>
+            <para/>
+            <para/>
+            <ITEXT CH="As an example, here is how to configure XRMT on your Blackberry 10 OS device.  Once installed open the app and click the three dots icon (bottom right) and select Add Server. For Server name enter openelec (lower case). For Server IP address enter the address that you set up for the Raspberry Pi in step 2 on page 23. Leave the Port code as 9090 then click the icon at bottom left.  "/>
+            <para/>
+            <para/>
+            <ITEXT CH="Now scroll down from the top of the app, click on Settings and change the Auto connect  by clicking on openelec below it. Close the settings screen. The app is now ready to use."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Sobald Du eine XBMC Fernbedienungs-App auf Deinem Smartphone installiert hast kannst Du Dein XBMC ohne Maus oder Tastatur steuern. Benutz einfach die App um auf dem XBMC Bildschirm zu navigieren, wähle VIDEOS and dann Add-ons, so dass Deine Add-ons aufgelistet werden. Klick einfach auf eines der Add-ons um es zu starten und geniesse das Angebot der Mediatheken. "/>
+            <para/>
+            <para/>
             <ITEXT CH="Weitere interessante Fakten und Tipps"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
+            <para/>
+            <para/>
             <ITEXT CH="HDMI-Verbindungen"/>
-            <para PARENT="Body sub-title"/>
-            <ITEXT CH="Are all the HDMI sockets on your TV in use with other devices such as a PVR, bluray player and games console? Not enough HDMI sockets on your TV for your Raspberry Pi?  The solution is to use a 2-in/1-out HDMI switch (e.g. Belkin).  Thus both the Raspberry Pi and the other device are connected to the HDTV.  The Belkin product has a button on it for selecting which of the 2 inputs to currently use. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="XRMT connection issue"/>
-            <para PARENT="Body sub-title"/>
-            <ITEXT CH="If you have been using a mouse to control XBMC, you may find that your Blackberry XRMT won't connect.  Unplug the mouse and reboot the Raspberry Pi and then XRMT should connect."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Command line access "/>
-            <para PARENT="Body sub-title"/>
-            <ITEXT CH="Do you want to access the OpenELEC operating system with Linux commands from your Windows PC? You can do this using a program called PuTTY. PuTTY uses the SSH protocol to connect to the Raspberry Pi. Download the latest version of PuTTY  from "/>
-            <ITEXT FCOLOR="Blue" CH="http://www.chiark. greenend.org.uk/~sgtatham/putty/download.html"/>
-            <ITEXT CH=". "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="You also need to set OpenELEC to allow a SSH connection. From the XBMC main screen select  "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SYSTEM"/>
-            <ITEXT CH=" then "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="OpenElec"/>
-            <ITEXT CH=" and click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Services"/>
-            <ITEXT CH=". Select the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SSH"/>
-            <ITEXT CH=" option and click to enable it. Reboot the Raspberry Pi. Once PuTTY is installed on your Windows PC simply run the file "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="putty.exe"/>
-            <ITEXT CH=". After the PuTTY screen has opened enter the IP address of your Raspberry Pi. Leave the Port as "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="22"/>
-            <ITEXT CH=" and choose "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="SSH"/>
-            <ITEXT CH=" as the connection type. Click on "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Open"/>
-            <ITEXT CH=" then enter the username and password.  For OpenELEC the default username is "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="root"/>
-            <ITEXT CH=" and the default password is "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="openelec"/>
-            <ITEXT CH=". "/>
-            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="Sind schon alle HDMI-Eingänge an Deinem Fernseher mit anderen Geräten belegt? Als Lösung gibt es HDMI Umschalter z.B. von Belkin, so dass Du zwischen Deinem Raspberry Pi und einem anderen Gerät hin und her schalten kannst."/>
+            <para/>
+            <para/>
+            <ITEXT CH="XRMT Verbindungsproblem"/>
+            <para/>
+            <ITEXT CH="Wenn Du eine Maus an Deinem XBMC benutzt hast kann es sein, dass Dein Blackberry XRMT sich nicht verbindet. Zieh die Maus raus und starte Deinen Raspbrrry Pi neu. Danach sollte wieder alles funktionieren."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Zugriff über die Kommandozeile"/>
+            <para/>
+            <ITEXT CH="Do you want to access the OpenELEC operating system with Linux commands from your Windows PC? You can do this using a program called PuTTY. PuTTY uses the SSH protocol to connect to the Raspberry Pi. Download the latest version of PuTTY  from http://www.chiark. greenend.org.uk/~sgtatham/putty/download.html."/>
+            <para/>
+            <ITEXT CH="You also need to set OpenELEC to allow a SSH connection. From the XBMC main screen select  SYSTEM then OpenElec and click on Services. Select the SSH option and click to enable it. Reboot the Raspberry Pi. Once PuTTY is installed on your Windows PC simply run the file putty.exe. After the PuTTY screen has opened enter the IP address of your Raspberry Pi. Leave the Port as 22 and choose SSH as the connection type. Click on Open then enter the username and password.  For OpenELEC the default username is root and the default password is openelec."/>
+            <para/>
+            <para/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614174" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="39" BACKITEM="26">
@@ -596,7 +442,7 @@
         <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086570867" YPOS="2719.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="39">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="411" YPOS="526.258292130598" WIDTH="255.935424804688" HEIGHT="282.914936215859" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 282.915 255.935 282.915 255.935 282.915 255.935 282.915 0 282.915 0 282.915 0 282.915 0 282.915 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 282.915 255.935 282.915 255.935 282.915 255.935 282.915 0 282.915 0 282.915 0 282.915 0 282.915 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="411.000008266179" YPOS="447.258292130598" WIDTH="255.935" HEIGHT="282.915" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 282.915 255.935 282.915 255.935 282.915 255.935 282.915 0 282.915 0 282.915 0 282.915 0 282.915 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 282.915 255.935 282.915 255.935 282.915 255.935 282.915 0 282.915 0 282.915 0 282.915 0 282.915 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
