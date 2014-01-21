@@ -202,27 +202,29 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="26" BACKITEM="-1">
-            <ITEXT CH="Datenerfassungssysteme werden häufig in der Industrie verwendet, um Analysen auf erfassten Daten durchzuführen oder für die Überwachung. Das Studium der gesammelten Daten, von Teils erheblicher Menge, führt zu einem besseren Verständnis des überwachten Systemverhaltens. Der Raspberry Pi bietet eine erschwingliche, leicht zugängliche und energiesparende Lösung, die Daten erfassen, darstellen und wieder ausgeben kann. Zum Beispiel könnte ein Raspberry Pi verwendet werden, um den Energieverbrauch einer Heizung in einem Gebäude zu überwachen."/>
+            <ITEXT CH="Datenerfassungssysteme werden in der Industrie häufig zur Überwachung eingesetzt oder um Analysen der Daten durchzuführen, um ein besseres Verständnis des Systemverhaltens zu erhalten. Der Raspberry Pi bietet eine erschwingliche, leicht zugängliche und energiesparende Lösung, die Daten erfassen, darstellen und wieder ausgeben kann. Zum Beispiel könnte ein Raspberry Pi verwendet werden, um den Energieverbrauch einer Heizung in einem Gebäude zu überwachen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In dieser Artikelserie werde ich einen unabhängiges Datenerfassungssystem aufbauen, das aus mehreren Teilen besteht. Die Komponenten des Systems können für andere Anwendungen modifiziert werden. Diese Reihe verwendet das Raspbian Raspberry Pi Betriebssystem mit der Programmiersprache Java."/>
+            <ITEXT CH="In dieser Artikelserie werde ich ein unabhängiges Datenerfassungssystem aufbauen, das aus mehreren Teilen besteht. Die Komponenten des Systems können für andere Anwendungen modifiziert werden. Diese Reihe verwendet das Raspbian Raspberry Pi Betriebssystem mit der Programmiersprache Java."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Anforderungen der Basisstation"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Das Ziel des Projekts ist es Tag und Nacht, ohne Unterbrechung zu laufen. Deshalb muss besonderes Augenmerk auf die Auswahl der Stromversorgung gesetzt werden. Sie sollte effizient und zuverlässig sein. Es liegt am Leser zu entscheiden, ob  Bildschirm, Tastatur, Maus oder Remote-Access erforderlich sind, um mit dem Raspberry Pi zu arbeiten. Ich entschied mich alle Daten auf der SD-Karte aufzuzeichnen. Allerdings könnten die Daten auch auf eine USB-Festplatte mit separater Stromversorgung oder auf einem Netzwerkdateisystem gespeichert werden, oder lokal gepuffert und dann versendet. Schreiben aller Daten ermöglicht eine vollständige Analyse und reduziert den Schreibzugriff auf das Speichermedium im Vergleich zu einem Ringpuffer. Die Speicherung von Messwerten für ein Jahr könnte hunderte Megabyte an Daten bedeuten. Wenn solche Protokolldaten gespeichert werden sollen, ist entweder eine Festplatte oder Netzwerkdateisystem erforderlich."/>
+            <ITEXT CH="Ziel des Projekts ist es Tag und Nacht, unter­­brechungsfrei zu laufen. Deshalb muss besonderes Augenmerk auf die Auswahl der Stromversorgung gesetzt werden. Sie sollte effizient und zuverlässig sein. Es liegt am Leser zu entscheiden, ob  Bildschirm, Tastatur, Maus oder Remote-Access erforderlich sind, um mit dem Raspberry Pi zu arbeiten. Ich entschied mich alle Daten auf der SD"/>
+            <nbhyphen/>
+            <ITEXT CH="Card aufzuzeichnen. Allerdings könnten die Daten auch auf einer USB-Festplatte mit separater Stromversorgung, auf einem Netzwerk­­datei­­system gespeichert werden oder lokal gepuffert und dann versendet. Speichern aller Daten ermöglicht eine vollständige Analyse und reduziert den Schreibzugriff auf das Speichermedium im Vergleich zu einem Ringpuffer, aber die Speicherung von Messwerten für ein Jahr könnte hunderte Megabyte an Daten bedeuten. Wenn solche Protokolldaten gespeichert werden sollen, ist entweder eine Festplatte oder ein Netzwerkdateisystem erforderlich."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Raspbian ist ein sehr komfortables Betriebssystem. Das Standard-Image enthält jetzt die Oracle Java Virtual Machine, die sehr effizient ist. Das Standard Raspbian Image enthält auch Systemtreiber für die Busse (I²C, SPI, UART), die über die GPIO-Pins zur Verfügung stehen. Um Raspbian auf einer SD-Karte zu installieren, folge den offiziellen Tutorials auf http://www.raspberrypi.org/downloads. Die auf dem Raspberry Pi GPIO verfügbaren Busse können mit Hilfe der Java-Bibliothek Pi4J gesteuert werden. Diese Bibliothek wird später in diesem Artikel erläutert. Für die Leser die nicht mit Java vertraut sind, bietet die Serie Cup of Java MagPi eine grundlegende Einführung in den Ausgaben 14 und 17."/>
+            <ITEXT CH="Raspbian ist ein sehr komfortables Betriebssystem. Das Standard-Image enthält jetzt die optimierte Oracle Java Virtual Machine. Das Standard Raspbian Image enthält auch Systemtreiber für die Busse (I²C, SPI, UART), die über die GPIO-Pins zur Verfügung stehen. Um Raspbian auf einer SD-Card zu installieren, folge den offiziellen Tutorials auf http://www.raspberrypi.org/downloads. Die auf dem Raspberry Pi GPIO verfügbaren Busse können mit Hilfe der Java Pi4J Library gesteuert werden. Für die Leser die nicht mit Java vertraut sind, bietet die Serie Cup of Java MagPi eine grundlegende Einführung in den Ausgaben 14 und 17."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Anschluß des BMP085"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Das BMP085 ist eine sehr präzise und kostengünstige Lösung zur Temperatur- und Luftdruckmessung. Es kann von http://www.adafruit.com oder von einem ihrer Händler bestellt werden. Es kommt in der Regel auf einer Leiterplatte montiert, die direkt am I²C-Bus des Raspberry Pi angeschlossen werden kann."/>
+            <ITEXT CH="Das BMP085 ist eine sehr präzise und kosten­­günstige Lösung zur Messung von Temperatur und Luftdruck. Es kann von http://www.adafruit.com oder von einem ihrer Händler bestellt werden. Es kommt in der Regel auf einer Leiterplatte montiert, die direkt am I²C-Bus des Raspberry Pi angeschlossen werden kann."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Bevor das BMP085 verwendet werdenkann, muss das i2c-Kernel-Modul aktiviert sein. Eingabe auf der Befehlszeile: "/>
+            <ITEXT CH="Bevor das BMP085 verwendet werden kann, muss das i2c-Kernel-Modul aktiviert sein. Auf der Befehls­­zeile ist folgendes einzugeben:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" cd /etc"/>
@@ -230,19 +232,16 @@
             <ITEXT CH=" sudo nano modprobe.d/raspi-blacklist.conf"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Suchen Sie die Zeile blacklist i2c-bcm2708 und fügen Sie einen Hash &quot;#&quot; am Anfang der Zeile ein, so wird es #blacklist i2c-bcm2708. Mit &lt;Ctrl&gt; + &lt;X&gt;,  &lt;Y&gt;, Eingabetaste speichern und beenden. "/>
+            <ITEXT CH="Suchen Sie die Zeile blacklist i2c-bcm2708 und fügen Sie einen Hash &quot;#&quot; am Anfang der Zeile ein, so wird es #blacklist i2c-bcm2708. Mit &lt;Ctrl&gt; + &lt;X&gt;,  &lt;Y&gt;, &lt;Eingabetaste&gt; speichern und beenden. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Als Nächstes bearbeiten Sie die Datei modules. Eingabe auf der Befehlszeile: "/>
+            <ITEXT CH="Als Nächstes bearbeiten Sie die Datei modules. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" sudo nano modules "/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Man fügt i2c-dev auf einer neuen Zeile hinzu. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Starten Sie den Raspberry Pi neu und öffnen Sie ein Terminal-Fenster zur Eingabe:"/>
+            <ITEXT CH="Fügen Sie i2c-dev auf einer neuen Zeile hinzu. Starten Sie den Raspberry Pi neu und öffnen Sie ein Terminal-Fenster zur Eingabe:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" sudo i2cdetect -y 1"/>
@@ -254,10 +253,11 @@
             <ITEXT CH="Die Antwort sollte 77 in der Adressliste zeigen. Weitere Informationen sind im Adafruit Tutorial http://goo.gl/PDrZGL zur Verfügung gestellt."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
             <ITEXT CH="Javaprogramm zur Datenerfassung"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Oracle hat eine Java Virtual Machine, die für den Raspberry Pi optimiert wurde zur Verfügung gestellt. Man Überprüft die Java-Version durch Eingabe von:"/>
+            <ITEXT CH="Oracle hat eine Java Virtual Machine, die für den Raspberry Pi optimiert wurde, zur Verfügung gestellt. Man Überprüft die Java-Version durch Eingabe von:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" java -version"/>
@@ -266,12 +266,7 @@
             <ITEXT CH="Die Version sollte 1.7.0_40 oder höher sein."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Um den Quellcode zu diesem Projekt zu erhalten, folgen Sie den Anweisungen auf http://goo.gl/KqPH24."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Der Source-Code muss je nach Sensoren und verwendetem Online-Server, angepasst werden. Einzelheiten zur Pi4J Java-Bibliothek sind unter http://pi4j.com gegeben."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Pi4J Bibliothek bietet direkten Zugriff auf den SPI-Bus und eine Menge GPIO Funktionen."/>
+            <ITEXT CH="Wie Sie den Quellcode zu diesem Projekt zu lesen Sie unter http://goo.gl/KqPH24. Der Quellcode muss an die verwendeten Sensoren und verwendetem Online-Server angepasst werden. Einzelheiten zur Pi4J Library sind unter http://pi4j.com zu finden. Die Library bietet direkten Zugriff auf den SPI-Bus und GPIO Funktionen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Ziele des Programms"/>
@@ -304,7 +299,7 @@
             <ITEXT CH="Anbindung an das BMP085"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Die Klasse BMP085probe erweitert AbstractProbe und bietet Zugriff auf DataChannel-Objekte. Es gibt zwei Objekte: eines für die Temperatur und ein zweites für den Luftdruck. Die beiden Argumente des DataChannel Konstruktors ist der Name für die Anzeige und der Name der Datendatei."/>
+            <ITEXT CH="Die Klasse BMP085probe erweitert AbstractProbe und bietet Zugriff auf DataChannel-Objekte. Es gibt zwei Objekte: eines für die Temperatur und ein Zweites für den Luftdruck. Die beiden Argumente des DataChannel Konstruktors sind der Name für die Anzeige und der Name der Datendatei."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" private DataChannel pressureChannel = new DataChannel(&quot;Luftdruck&quot;,     "/>
@@ -316,7 +311,7 @@
             <ITEXT FONTSIZE="9" CH="    &quot;Room_Temperature&quot;);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Die Klasse BMP085probe überschreibt die abstrakte Methode, für Zugriff auf die DataChannel-Objekte:"/>
+            <ITEXT CH="Die Klasse BMP085probe überschreibt die abstrakte Methode für Zugriff auf die DataChannel-Objekte:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" @Override"/>
@@ -328,7 +323,7 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Das I2CBus-Objekt aus der Pi4J Bibliothek wird dem BMP085 Konstruktor übergeben. Über dieses Busobjekt können wir unser I²C-Gerät konfigurieren. Das BMP085 hat die Adresse 0x77."/>
+            <ITEXT CH="Das I2CBus-Objekt aus der Pi4J Library wird dem BMP085 Konstruktor übergeben. Über dieses Busobjekt können wir unser I²C-Gerät konfigurieren. Das BMP085 hat die Adresse 0x77."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" public static final int BMP085_I2C_ADDR = 0x77;"/>
@@ -422,7 +417,6 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Dieser Sensor kann eine hohe Datenrate liefern. Um die Genauigkeit zu erhöhen, kann ein Thread 5 Datenpunkte mitteln und diesen Durchschnitt jede Sekunde an das DataChannel-Objekt anfügen."/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
             <ITEXT CH="Um das BMP085 hinzuzufügen, besorgt man sich in der Main Klasse eine Instanz aus der Pi4J I2CBus Factory, instantiiert BMP085probe und fügt dies dem probeManager hinzu."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -448,7 +442,7 @@
             <ITEXT CH="Nun können die beiden DataChannel Werte für Temperatur und Luftdruck ermittelt, protokolliert und als Diagramm angezeigt werden."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Im nächsten Artikel gibt es weitere Anweisungen für Datenexport und Setup einer Web-Seite zum Anzeigen der Daten. Bis es soweit ist, versuche den Code zu erstellen und probiere die beschriebene Hardware-Konfiguration aus."/>
+            <ITEXT CH="Im nächsten Artikel geht es um Datenexport und Setup einer Web-Seite zum Anzeigen der Daten. Bis es soweit ist, versuche den Code zu erstellen und probiere die beschriebene Hardware-Konfiguration aus."/>
             <para PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -531,7 +525,7 @@
         <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="38">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="970.22929133858" WIDTH="255.123779527559" HEIGHT="187.251023622046" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.34" LOCALSCY="0.34" LOCALX="-33.3487725798981" LOCALY="-33.3487725798981" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="BMP085_Breadboard_1K.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.124 0 255.124 0 255.124 0 255.124 0 255.124 187.251 255.124 187.251 255.124 187.251 255.124 187.251 0 187.251 0 187.251 0 187.251 0 187.251 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.124 0 255.124 0 255.124 0 255.124 0 255.124 187.251 255.124 187.251 255.124 187.251 255.124 187.251 0 187.251 0 187.251 0 187.251 0 187.251 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="957.22929133858" WIDTH="255.123779527559" HEIGHT="187.251023622046" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.34" LOCALSCY="0.34" LOCALX="-33.3487725798981" LOCALY="-33.3487725798981" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="BMP085_Breadboard_1K.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.124 0 255.124 0 255.124 0 255.124 0 255.124 187.251 255.124 187.251 255.124 187.251 255.124 187.251 0 187.251 0 187.251 0 187.251 0 187.251 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.124 0 255.124 0 255.124 0 255.124 0 255.124 187.251 255.124 187.251 255.124 187.251 255.124 187.251 0 187.251 0 187.251 0 187.251 0 187.251 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
