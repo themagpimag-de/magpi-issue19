@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.3.svn">
-    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="4" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -211,7 +211,7 @@
             <ITEXT CH="Anforderungen der Basisstation"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Das Ziel des Projekts ist es Tag und Nacht, ohne Unterbrechung zu laufen. Deshalb muss besonderes Augenmerk auf die Auswahl der Stromversorgung gesetzt werden. Sie sollte effizient und zuverlässig sein. Wenn nur wenige sparsame Sensoren angeschlossen sind, ist ein Handy-Ladegerät wahrscheinlich genug. Es liegt am Leser zu entscheiden, ob ein Bildschirm, Tastatur, Maus oder Remote-Access erforderlich ist, um mit dem Raspberry Pi zu arbeiten. Ich entschied mich alle Daten auf der SD-Karte aufzuzeichnen. Allerdings könnten die Daten auch auf eine USB-Festplatte mit separater Stromversorgung oder auf einem Netzwerkdateisystem gespeichert werden, oder lokal gepuffert und dann versendet. Schreiben aller Daten ermöglicht eine vollständige Analyse und reduziert den Schreibzugriff auf das Speichermedium im Vergleich zu einem Ringpuffer. Die Speicherung von Messwerten für ein Jahr könnte hunderte Megabyte an Daten bedeuten. Wenn solche Protokolldaten gespeichert werden sollen, ist entweder eine Festplatte oder Netzwerkdateisystem erforderlich."/>
+            <ITEXT CH="Das Ziel des Projekts ist es Tag und Nacht, ohne Unterbrechung zu laufen. Deshalb muss besonderes Augenmerk auf die Auswahl der Stromversorgung gesetzt werden. Sie sollte effizient und zuverlässig sein. Es liegt am Leser zu entscheiden, ob  Bildschirm, Tastatur, Maus oder Remote-Access erforderlich sind, um mit dem Raspberry Pi zu arbeiten. Ich entschied mich alle Daten auf der SD-Karte aufzuzeichnen. Allerdings könnten die Daten auch auf eine USB-Festplatte mit separater Stromversorgung oder auf einem Netzwerkdateisystem gespeichert werden, oder lokal gepuffert und dann versendet. Schreiben aller Daten ermöglicht eine vollständige Analyse und reduziert den Schreibzugriff auf das Speichermedium im Vergleich zu einem Ringpuffer. Die Speicherung von Messwerten für ein Jahr könnte hunderte Megabyte an Daten bedeuten. Wenn solche Protokolldaten gespeichert werden sollen, ist entweder eine Festplatte oder Netzwerkdateisystem erforderlich."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Raspbian ist ein sehr komfortables Betriebssystem. Das Standard-Image enthält jetzt die Oracle Java Virtual Machine, die sehr effizient ist. Das Standard Raspbian Image enthält auch Systemtreiber für die Busse (I²C, SPI, UART), die über die GPIO-Pins zur Verfügung stehen. Um Raspbian auf einer SD-Karte zu installieren, folge den offiziellen Tutorials auf http://www.raspberrypi.org/downloads. Die auf dem Raspberry Pi GPIO verfügbaren Busse können mit Hilfe der Java-Bibliothek Pi4J gesteuert werden. Diese Bibliothek wird später in diesem Artikel erläutert. Für die Leser die nicht mit Java vertraut sind, bietet die Serie Cup of Java MagPi eine grundlegende Einführung in den Ausgaben 14 und 17."/>
@@ -230,7 +230,7 @@
             <ITEXT CH=" sudo nano modprobe.d/raspi-blacklist.conf"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Suchen Sie die Zeile blacklist i2c-bcm2708 und fügen Sie einen Hash &quot;#&quot; am Anfang der Zeile ein, so wird es #blacklist i2c-bcm2708 . Zum Speichern und Beenden, drückt man &lt;Ctrl&gt; + &lt;X&gt; und dann &lt;Y&gt; und die Eingabetaste. "/>
+            <ITEXT CH="Suchen Sie die Zeile blacklist i2c-bcm2708 und fügen Sie einen Hash &quot;#&quot; am Anfang der Zeile ein, so wird es #blacklist i2c-bcm2708. Mit &lt;Ctrl&gt; + &lt;X&gt;,  &lt;Y&gt;, Eingabetaste speichern und beenden. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Als Nächstes bearbeiten Sie die Datei modules. Eingabe auf der Befehlszeile: "/>
@@ -239,7 +239,7 @@
             <ITEXT CH=" sudo nano modules "/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Man fügt i2c-dev auf einer neuen Zeile hinzu. Zum Speichern und Beenden, drückt man wieder &lt;Ctrl&gt; + &lt;X&gt; und dann &lt;Y&gt; und die Eingabetaste. "/>
+            <ITEXT CH="Man fügt i2c-dev auf einer neuen Zeile hinzu. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Starten Sie den Raspberry Pi neu und öffnen Sie ein Terminal-Fenster zur Eingabe:"/>
@@ -268,7 +268,7 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Um den Quellcode zu diesem Projekt zu erhalten, folgen Sie den Anweisungen auf http://goo.gl/KqPH24."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Der Source-Code muss je nach angeschlossenen Sensoren und verwendetem Online-Server, angepasst werden. Einzelheiten zur Pi4J Java-Bibliothek sind unter http://pi4j.com gegeben."/>
+            <ITEXT CH="Der Source-Code muss je nach Sensoren und verwendetem Online-Server, angepasst werden. Einzelheiten zur Pi4J Java-Bibliothek sind unter http://pi4j.com gegeben."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Pi4J Bibliothek bietet direkten Zugriff auf den SPI-Bus und eine Menge GPIO Funktionen."/>
@@ -289,16 +289,16 @@
             <ITEXT CH="Verwendung eines Diagramms als graphische Benutzerschnittstelle zur vereinfachten lokalen Visualisierung."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Durch die Erfassung aller Daten ist es nachträglich möglich, die Analysemethode zu ändern oder die vollständigen Daten zu analysieren."/>
+            <ITEXT CH="Durch die vollständige Datenerfassung ist es möglich, die Analysemethode nachträglich zu ändern."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Struktur"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FCOLOR="Red" FSHADE="100" CH="Sonden die am Raspberry Pi angeschlossen sind, können mehrere Werte unabhängig erfassen. Die gewählte Lösung besteht aus einer abstrakten Klasse für die Sonden, die für jeden Sensor der mit dem System verbunden soll, implementiert werden muss. Eine Sonde Implementierung dieser Klasse müssen eine oder mehrere Datachannel-Objekte, die das Datenmodell zu vertreten ist. Im Sinne einer Model-View-Controller-Muster, kann die probe Klasse wie der Controller zu sehen ist, das Anpassen der Ansicht-."/>
+            <ITEXT CH="Angeschlossene Sonden können verschiedenste Werten liefern. Die gewählte Lösung ist eine abstrakte Sonden Klasse, die für jeden benutzen Sensor implementiert wird. Eine Implementierung dieser Klasse muss ein oder mehrere DataChannel-Objekte haben, die als Datenmodell dienen. Im Sinne des Model-View-Controller Patterns, kann die ProbeManager Klasse als Controller gesehen werden, der die View steuert."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Die Klasse DataChannel umfasst alle Funktionen, die für jede Art von Daten gebräuchlich sind.   Sie lädt bei der Instanziierung die bisherigen Daten aus der Protokolldatei, protokolliert neue Daten und berechnet Durchschnitte. Die verschiedenen Implementierungen von AbstractProbe beinhalten spezifische Funktionen für den jeweilligen Typ des Sensors. Jede abgeleitete Klasse sollte den Sensor konfigurieren, Daten verarbeiten oder konvertieren und sie dann dem richtigen DataChannel-Objekt zuführen."/>
+            <ITEXT CH="Die Klasse DataChannel umfasst alle Funktionen, die für alle Arten von Daten gebraucht werden.   Sie lädt bei der Instanziierung die bisherigen Daten aus der Protokolldatei, protokolliert neue Daten und berechnet Durchschnitte. Die verschiedenen Implementierungen von AbstractProbe beinhalten spezifische Funktionen für den jeweilligen Typ des Sensors. Jede abgeleitete Klasse sollte den Sensor konfigurieren, Daten verarbeiten oder konvertieren und sie dann dem richtigen DataChannel-Objekt zuführen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Anbindung an das BMP085"/>
@@ -307,16 +307,16 @@
             <ITEXT CH="Die Klasse BMP085probe erweitert AbstractProbe und bietet Zugriff auf DataChannel-Objekte. Es gibt zwei Objekte: eines für die Temperatur und ein zweites für den Luftdruck. Die beiden Argumente des DataChannel Konstruktors ist der Name für die Anzeige und der Name der Datendatei."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH=" private DataChannel pressureChannel = new DataChannel(&quot;Atmospheric Pressure&quot;,     "/>
+            <ITEXT FONTSIZE="9" CH=" private DataChannel pressureChannel = new DataChannel(&quot;Luftdruck&quot;,     "/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="     &quot;Atmospheric_Pressure&quot;);"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" private DataChannel temperatureChannel = new DataChannel(&quot;Room Temperature&quot;,"/>
+            <ITEXT FONTSIZE="9" CH=" private DataChannel temperatureChannel = new DataChannel(&quot;Zimmertemperatur&quot;,"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="    &quot;Room_Temperature&quot;);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Die Klasse BMP085probe überschreibt die abstrakte Methode, die den Zugriff auf die DataChannel-Objekte bietet:"/>
+            <ITEXT CH="Die Klasse BMP085probe überschreibt die abstrakte Methode, für Zugriff auf die DataChannel-Objekte:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" @Override"/>
@@ -328,7 +328,7 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Das I2CBus Objekt aus der Pi4J Bibliothek wird dem BMP085 Konstruktor übergeben, da es mehrere Peripheriegeräte auf dem gleichen I²C-Bus geben kann. Mit diesem Bus können wir unser I²C-Gerät konfigurieren. Das BMP085 hat die Adresse 0x77."/>
+            <ITEXT CH="Das I2CBus-Objekt aus der Pi4J Bibliothek wird dem BMP085 Konstruktor übergeben. Über dieses Busobjekt können wir unser I²C-Gerät konfigurieren. Das BMP085 hat die Adresse 0x77."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" public static final int BMP085_I2C_ADDR = 0x77;"/>
@@ -351,26 +351,27 @@
             <ITEXT CH="Das dataReaderThread Objekt wird verwendet, um eine Anfrage für Temperatur- und Druck zu verschicken. Dann liest der Thread zwei Bytes Temperatur-Rohdaten und drei Bytes Druck-Rohdaten."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH=" bmp085device.write(CONTROL, READTEMPCMD);            //Send read temperature command"/>
+            <ITEXT FONTSIZE="9" CH=" "/>
+            <ITEXT CH="bmp085device.write(CONTROL, READTEMPCMD);            //Sende Befehl ‘read temperature’"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" sleep(50);                                           //wait the convertion time"/>
+            <ITEXT CH=" sleep(50);                                           //warte auf Daten"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" rawTemperature = readU16(DATA_REG);                  //retrieve the 2 bytes"/>
+            <ITEXT CH=" rawTemperature = readU16(DATA_REG);                  //lese 2 Bytes aus"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" bmp085device.write(CONTROL, (byte) READPRESSURECMD); //Send read pressure command"/>
+            <ITEXT CH=" bmp085device.write(CONTROL, (byte) READPRESSURECMD); //Sende Befehl ‘read pressure’"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" sleep(50);                                           //wait the convertion time"/>
+            <ITEXT CH=" sleep(50);                                           //warte auf Daten"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" msb = readU8(DATA_REG);                              //retrieve the 3 bytes"/>
+            <ITEXT CH=" msb = readU8(DATA_REG);                              //lese 3 Bytes aus"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" lsb = readU8(DATA_REG+1);"/>
+            <ITEXT CH=" lsb = readU8(DATA_REG+1);"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" xlsb = readU8(DATA_REG+2);"/>
+            <ITEXT CH=" xlsb = readU8(DATA_REG+2);"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" rawPressure = ((msb &lt;&lt; 16) + (lsb &lt;&lt; 8) + xlsb) &gt;&gt; (8-OSS); //make raw pressure integer"/>
+            <ITEXT CH=" rawPressure = ((msb &lt;&lt; 16) + (lsb &lt;&lt; 8) + xlsb) &gt;&gt; (8-OSS); //Erzeuge integer für Druck Rohdaten"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Mit BMP085 Datenblatt (http://goo.gl/CborFs) und unter Verwendung der zuvor gelesenen Kalibrierungswerte können diese Rohdaten in Pascal und Grad Celsius Einheiten umgewandelt werden. Java unterstützt keine nativen unsigned integer Typen. Es ist daher einfacher Bit-Shift Operationen durch Division und Multiplikation zu ersetzen.  "/>
+            <ITEXT CH="Mit BMP085 Datenblatt (http://goo.gl/CborFs) und unter Verwendung der zuvor gelesenen Kalibrierungswerte können diese Rohdaten in SI-Einheiten umgewandelt werden. Java unterstützt keine nativen unsigned integer Typen. Es ist daher einfacher Bit-Shift Operationen durch Division und Multiplikation zu ersetzen.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" double temperature = 0.0;"/>
@@ -422,14 +423,14 @@
             <ITEXT CH="Dieser Sensor kann eine hohe Datenrate liefern. Um die Genauigkeit zu erhöhen, kann ein Thread 5 Datenpunkte mitteln und diesen Durchschnitt jede Sekunde an das DataChannel-Objekt anfügen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Um das BMP085 zum endgültigen Programm hinzuzufügen, besorgt man sich in der Main Klasse eine Instanz aus der Pi4J I2CBus Factory, instantiiert BMP085probe und fügt dies dem probeManager hinzu."/>
+            <ITEXT CH="Um das BMP085 hinzuzufügen, besorgt man sich in der Main Klasse eine Instanz aus der Pi4J I2CBus Factory, instantiiert BMP085probe und fügt dies dem probeManager hinzu."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" private void initI2CandBMP085probe() {"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="   try {"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="     final I2CBus bus = I2CFactory.getInstance(I2CBus.BUS_1); //Change to BUS_0 for Rev 1 boards."/>
+            <ITEXT FONTSIZE="9" CH="     final I2CBus bus = I2CFactory.getInstance(I2CBus.BUS_1); //Verwende BUS_0 für Rev 1 Boards."/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="     bmp085Probe = new BMP085probe(bus);"/>
             <para PARENT="Code"/>
