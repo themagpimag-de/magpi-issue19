@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SCRIBUSUTF8NEW Version="1.4.1.svn">
-    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="5" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+<SCRIBUSUTF8NEW Version="1.4.3.svn">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="4" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -26,14 +26,14 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -153,7 +153,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="116.373561872328" YPOS="308.109881889764" WIDTH="236.417952755906" HEIGHT="16.7244094488189" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1.04567289830735" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="15" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 236.418 0 236.418 0 236.418 0 236.418 0 236.418 16.7244 236.418 16.7244 236.418 16.7244 236.418 16.7244 0 16.7244 0 16.7244 0 16.7244 0 16.7244 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 236.418 0 236.418 0 236.418 0 236.418 0 236.418 16.7244 236.418 16.7244 236.418 16.7244 236.418 16.7244 0 16.7244 0 16.7244 0 16.7244 0 16.7244 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="12.4007818281801" gYpos="9.48980314960596" gWidth="289.12478516815" gHeight="35.704" ALIGN="1" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FCOLOR="White" CH="SKILL LEVEL : INTERMEDIATE"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FCOLOR="White" CH="ERFAHRUNG: MITTEL"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -179,7 +179,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="522.368642973826" YPOS="301.596625559448" WIDTH="130.464288855498" HEIGHT="18.3807178205899" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 18.3807 130.464 18.3807 130.464 18.3807 130.464 18.3807 0 18.3807 0 18.3807 0 18.3807 0 18.3807 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 18.3807 130.464 18.3807 130.464 18.3807 130.464 18.3807 0 18.3807 0 18.3807 0 18.3807 0 18.3807 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="11.2678555411184" gYpos="161.177334178346" gWidth="153" gHeight="193.248031453543" ALIGN="1" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="12" FCOLOR="White" CH="Guest Writer"/>
+            <ITEXT FONTSIZE="14" FCOLOR="White" CH="Gastautor"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -188,151 +188,135 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="388.5" YPOS="77.8740185114342" WIDTH="304.5" HEIGHT="28.4153537750244" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 304.5 0 304.5 0 304.5 0 304.5 0 304.5 28.4154 304.5 28.4154 304.5 28.4154 304.5 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 304.5 0 304.5 0 304.5 0 304.5 0 304.5 28.4154 304.5 28.4154 304.5 28.4154 304.5 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="ENVIRONMENTAL MONITOR"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="UMWELT MONITOR"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="211.576766727478" WIDTH="375.777221679688" HEIGHT="75.4192962646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para/>
             <para/>
-            <ITEXT FONTSIZE="23" CH="Using the BMP085 to log temperature and pressure data"/>
+            <ITEXT FONTSIZE="23" CH="Temperatur und Druck mit "/>
+            <para LINESP="26"/>
+            <ITEXT FONTSIZE="23" CH="dem BMP085 aufzeichnen"/>
             <trail LINESP="26"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="26" BACKITEM="-1">
-            <ITEXT CH="Data logging systems are often used in industry to allow analysis after data has been read and for monitoring.  Studying collected data, which could be a large data sample, leads to a better understanding of  the  monitored system behaviour.  The Raspberry Pi provides an affordable, accessible and low power consumption solution that can log, present and  upload data.  For example, a Raspberry Pi could be used to monitor the energy consumption of a heating system in a house."/>
+            <ITEXT CH="Datenerfassungssysteme werden häufig in der Industrie verwendet, um Analysen auf erfassten Daten durchzuführen oder für die Überwachung. Das Studium der gesammelten Daten, von Teils erheblicher Menge, führt zu einem besseren Verständnis des überwachten Systemverhaltens. Der Raspberry Pi bietet eine erschwingliche, leicht zugängliche und energiesparende Lösung, die Daten erfassen, darstellen und wieder ausgeben kann. Zum Beispiel könnte ein Raspberry Pi verwendet werden, um den Energieverbrauch einer Heizung in einem Gebäude zu überwachen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In this article series I will present an independent data logging system that is assembled from several pieces. The components of the system could be modified for other applications. This series uses the Raspbian Raspberry Pi operating system, together with  the Java programming language."/>
+            <ITEXT CH="In dieser Artikelserie werde ich einen unabhängiges Datenerfassungssystem aufbauen, das aus mehreren Teilen besteht. Die Komponenten des Systems können für andere Anwendungen modifiziert werden. Diese Reihe verwendet das Raspbian Raspberry Pi Betriebssystem mit der Programmiersprache Java."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Base station requirements"/>
+            <ITEXT CH="Anforderungen der Basisstation"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The goal for the project is to run day and night without interruption.  Therefore, particular attention needs to be taken when choosing the power supply.  It should be efficient and reliable. If only a few low power consumption sensors are connected, a mobile phone charger is probably enough. It is up to you to decide if a screen, keyboard, mouse or remote access is needed to interact with the Raspberry Pi.  I chose to record all of the data onto the SD card.   However, the data could be written to a USB hard drive connected through a powered USB hub, or to a network mounted file system, or buffered locally and then uploaded.  Writing all of the data allows a complete analysis afterwards and reduces the write access to the storage media in comparison to a rotating buffer.  Recording sensor data for one year could represent hundreds of megabytes of data.  If a log of data needs to be written then either a hard disk drive or network mounted file system may be needed."/>
+            <ITEXT CH="Das Ziel des Projekts ist es Tag und Nacht, ohne Unterbrechung zu laufen. Deshalb muss besonderes Augenmerk auf die Auswahl der Stromversorgung gesetzt werden. Sie sollte effizient und zuverlässig sein. Wenn nur wenige sparsame Sensoren angeschlossen sind, ist ein Handy-Ladegerät wahrscheinlich genug. Es liegt am Leser zu entscheiden, ob ein Bildschirm, Tastatur, Maus oder Remote-Access erforderlich ist, um mit dem Raspberry Pi zu arbeiten. Ich entschied mich alle Daten auf der SD-Karte aufzuzeichnen. Allerdings könnten die Daten auch auf eine USB-Festplatte mit separater Stromversorgung oder auf einem Netzwerkdateisystem gespeichert werden, oder lokal gepuffert und dann versendet. Schreiben aller Daten ermöglicht eine vollständige Analyse und reduziert den Schreibzugriff auf das Speichermedium im Vergleich zu einem Ringpuffer. Die Speicherung von Messwerten für ein Jahr könnte hunderte Megabyte an Daten bedeuten. Wenn solche Protokolldaten gespeichert werden sollen, ist entweder eine Festplatte oder Netzwerkdateisystem erforderlich."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Raspbian is a really convenient operating system.  The default image now includes the Oracle Java virtual machine, which is very efficient.  The default Raspbian image also includes system drivers for the buses (I"/>
-            <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C, SPI, UART) available via the GPIO pins. To install Raspbian on a SD card, follow the official tutorials at "/>
-            <ITEXT FCOLOR="Blue" CH="http://www.raspberrypi.org/downloads"/>
-            <ITEXT CH=".  The buses available on the Raspberry Pi GPIO can be controlled using the Pi4J Java library.  This library is discussed later in this article.  For those unfamiliar with Java, the Cup of Java MagPi series provides a basic introduction in Issues 14 and 17."/>
+            <ITEXT CH="Raspbian ist ein sehr komfortables Betriebssystem. Das Standard-Image enthält jetzt die Oracle Java Virtual Machine, die sehr effizient ist. Das Standard Raspbian Image enthält auch Systemtreiber für die Busse (I²C, SPI, UART), die über die GPIO-Pins zur Verfügung stehen. Um Raspbian auf einer SD-Karte zu installieren, folge den offiziellen Tutorials auf http://www.raspberrypi.org/downloads. Die auf dem Raspberry Pi GPIO verfügbaren Busse können mit Hilfe der Java-Bibliothek Pi4J gesteuert werden. Diese Bibliothek wird später in diesem Artikel erläutert. Für die Leser die nicht mit Java vertraut sind, bietet die Serie Cup of Java MagPi eine grundlegende Einführung in den Ausgaben 14 und 17."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Connecting the BMP085"/>
+            <ITEXT CH="Anschluß des BMP085"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The BMP085 is a very precise and affordable solution to measure temperature and air pressure.  It can be ordered from "/>
-            <ITEXT FCOLOR="Blue" CH="http://www.adafruit.com"/>
-            <ITEXT CH=" or from one of their distributors.  It usually comes mounted on a PCB board that can be connected directly to the Raspberry Pi I"/>
-            <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C bus."/>
+            <ITEXT CH="Das BMP085 ist eine sehr präzise und kostengünstige Lösung zur Temperatur- und Luftdruckmessung. Es kann von http://www.adafruit.com oder von einem ihrer Händler bestellt werden. Es kommt in der Regel auf einer Leiterplatte montiert, die direkt am I²C-Bus des Raspberry Pi angeschlossen werden kann."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Before the BMP085 can be used the i2c kernel module needs to be enabled. From the command line, enter: "/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" cd /etc"/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" sudo nano modprobe.d/raspi-blacklist.conf"/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <ITEXT CH="Look for the entry "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="blacklist i2c-bcm2708"/>
-            <ITEXT CH=" and add a hash ‘#’ at the beginning of the line so it becomes "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="#blacklist i2c-bcm2708"/>
-            <ITEXT CH=". Press &lt;Ctrl&gt;+&lt;X&gt; then press &lt;Y&gt; and &lt;Enter&gt; to save and exit. "/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <ITEXT CH="Next edit the modules file. From the command line, enter: "/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" sudo nano modules"/>
-            <ITEXT CH=" "/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <ITEXT CH="Add "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="i2c-dev"/>
-            <ITEXT CH=" on a new line. Press &lt;Ctrl&gt;+&lt;X&gt; then press &lt;Y&gt; and &lt;Enter&gt; to save and exit. "/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <para PARENT="Body text" ALIGN="3"/>
-            <ITEXT CH="Reboot the Raspberry Pi, open a terminal window and enter:"/>
+            <ITEXT CH="Bevor das BMP085 verwendet werdenkann, muss das i2c-Kernel-Modul aktiviert sein. Eingabe auf der Befehlszeile: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" sudo i2cdetect -y 1"/>
+            <ITEXT CH=" cd /etc"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" sudo nano modprobe.d/raspi-blacklist.conf"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Suchen Sie die Zeile blacklist i2c-bcm2708 und fügen Sie einen Hash &quot;#&quot; am Anfang der Zeile ein, so wird es #blacklist i2c-bcm2708 . Zum Speichern und Beenden, drückt man &lt;Ctrl&gt; + &lt;X&gt; und dann &lt;Y&gt; und die Eingabetaste. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" CH="NOTE:"/>
-            <ITEXT CH=" Use 0 instead of 1 for the bus number in the above command if you have a revision 1 Raspberry Pi. The revision 1 Pi does not have any mounting holes on the PCB; newer revisions have 2 mounting holes. "/>
-            <para PARENT="Body text" ALIGN="3"/>
+            <ITEXT CH="Als Nächstes bearbeiten Sie die Datei modules. Eingabe auf der Befehlszeile: "/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The response should show 77 in the address list. More information is provided in the Adafruit tutorial at "/>
-            <ITEXT FCOLOR="Blue" CH="http://goo.gl/PDrZGL"/>
-            <ITEXT CH="."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Java data logging program"/>
+            <ITEXT CH=" sudo nano modules "/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Man fügt i2c-dev auf einer neuen Zeile hinzu. Zum Speichern und Beenden, drückt man wieder &lt;Ctrl&gt; + &lt;X&gt; und dann &lt;Y&gt; und die Eingabetaste. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Starten Sie den Raspberry Pi neu und öffnen Sie ein Terminal-Fenster zur Eingabe:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" sudo i2cdetect -y 1"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="HINWEIS:  Wenn man Revision 1 des Raspberry Pi hat, muss 0 statt 1 für die Buslinie im obigen Befehl benutzt werden. Die Revision 1 des Pi hat keine Befestigungslöcher auf der Leiterplatte. Neuere Versionen haben 2 Montagebohrungen. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Die Antwort sollte 77 in der Adressliste zeigen. Weitere Informationen sind im Adafruit Tutorial http://goo.gl/PDrZGL zur Verfügung gestellt."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Javaprogramm zur Datenerfassung"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Oracle has provided a Java virtual machine that has been optimised for the Raspberry Pi. Check your Java version by typing:"/>
+            <ITEXT CH="Oracle hat eine Java Virtual Machine, die für den Raspberry Pi optimiert wurde zur Verfügung gestellt. Man Überprüft die Java-Version durch Eingabe von:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" java -version"/>
+            <ITEXT CH=" java -version"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Die Version sollte 1.7.0_40 oder höher sein."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The response should be 1.7.0_40 or higher.  "/>
+            <ITEXT CH="Um den Quellcode zu diesem Projekt zu erhalten, folgen Sie den Anweisungen auf http://goo.gl/KqPH24."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Der Source-Code muss je nach angeschlossenen Sensoren und verwendetem Online-Server, angepasst werden. Einzelheiten zur Pi4J Java-Bibliothek sind unter http://pi4j.com gegeben."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To get the source code needed for this project follow the instructions given at "/>
-            <ITEXT FCOLOR="Blue" CH="http://goo.gl/KqPH24"/>
-            <ITEXT CH="."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="to check out .  The source code must be customised according the sensors connected and the online server used. Details of the Pi4J Java library are given at "/>
-            <ITEXT FCOLOR="Blue" CH="http://pi4j.com"/>
-            <ITEXT CH="."/>
+            <ITEXT CH="Pi4J Bibliothek bietet direkten Zugriff auf den SPI-Bus und eine Menge GPIO Funktionen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The Pi4J library provides direct access to the SPI bus and a lot of GPIO facilities."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Goals of the program"/>
+            <ITEXT CH="Ziele des Programms"/>
             <para PARENT="Body sub-title"/>
-            <ITEXT CH="• At start-up, configure the communications for the probes and then the probes themselves."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="• At start-up, load the previous recorded data from log files."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="• Retrieve data from probes and record them to a  plain text file on the SD card."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="• Perform averaging with different time scales, in order to present historical data in a convenient way."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="• Upload averaged data to a web server using FTP to provide access via the internet."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="• Use a chart as a graphical user interface, to make local visualisation easy."/>
-            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="Beim Startvorgang, Konfiguration der Kommunikation der Sonden und der Sonden an sich."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="By recording all of the data, it is then possible to change the analysis method or analyse the full data."/>
+            <ITEXT CH="Beim Startvorgang, laden der zuvor aufgezeichneten Daten aus Log-Dateien."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Structure"/>
+            <ITEXT CH="Abrufen der Daten von den Sonden und Speicherung als Klartextdatei auf der SD-Karte. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Berechnung von Durchschnitten mit unterschiedlichen Zeitskalen, um historische Daten aufzubereiten."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Versandt der gemittelten Daten über das Internet an einen Web-Server mit FTP-Zugang."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Verwendung eines Diagramms als graphische Benutzerschnittstelle zur vereinfachten lokalen Visualisierung."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Durch die Erfassung aller Daten ist es nachträglich möglich, die Analysemethode zu ändern oder die vollständigen Daten zu analysieren."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Struktur"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Probes connected to the Raspberry Pi can provide several values that may be independent.  The chosen solution consists of an abstract class for probes which must be implemented for each sensor connected to the system.  A probe implementation of this class must provide one or several DataChannel objects, which represent the data model. In terms of a model-view-controller pattern, the ProbeManager class can be seen as the controller, customising the view."/>
+            <ITEXT FCOLOR="Red" FSHADE="100" CH="Sonden die am Raspberry Pi angeschlossen sind, können mehrere Werte unabhängig erfassen. Die gewählte Lösung besteht aus einer abstrakten Klasse für die Sonden, die für jeden Sensor der mit dem System verbunden soll, implementiert werden muss. Eine Sonde Implementierung dieser Klasse müssen eine oder mehrere Datachannel-Objekte, die das Datenmodell zu vertreten ist. Im Sinne einer Model-View-Controller-Muster, kann die probe Klasse wie der Controller zu sehen ist, das Anpassen der Ansicht-."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The DataChannel class includes activities that are common for each type of data - it loads previous data from the log file when it is instantiated, logs new data and performs averaging. The different implementations of AbstractProbe include functionality specific to a given type of sensor.  Each derived class should configure the sensor, process or convert data and then add them to the right DataChannel object."/>
+            <ITEXT CH="Die Klasse DataChannel umfasst alle Funktionen, die für jede Art von Daten gebräuchlich sind.   Sie lädt bei der Instanziierung die bisherigen Daten aus der Protokolldatei, protokolliert neue Daten und berechnet Durchschnitte. Die verschiedenen Implementierungen von AbstractProbe beinhalten spezifische Funktionen für den jeweilligen Typ des Sensors. Jede abgeleitete Klasse sollte den Sensor konfigurieren, Daten verarbeiten oder konvertieren und sie dann dem richtigen DataChannel-Objekt zuführen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Interfacing with the BMP085"/>
+            <ITEXT CH="Anbindung an das BMP085"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The class BMP085probe extends AbstractProbe and provides access to DataChannel objects.  There are two objects: one for temperature and a second one for air pressure. The two arguments of the DataChannel constructor are the name for the display and the name of the data file."/>
+            <ITEXT CH="Die Klasse BMP085probe erweitert AbstractProbe und bietet Zugriff auf DataChannel-Objekte. Es gibt zwei Objekte: eines für die Temperatur und ein zweites für den Luftdruck. Die beiden Argumente des DataChannel Konstruktors ist der Name für die Anzeige und der Name der Datendatei."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" private DataChannel pressureChannel = new DataChannel(&quot;Atmospheric Pressure&quot;,     "/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="     &quot;Atmospheric_Pressure&quot;);"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" private DataChannel temperatureChannel = new DataChannel(&quot;Room Temperature&quot;, &quot;Room_Temperature&quot;);"/>
+            <ITEXT FONTSIZE="9" CH=" private DataChannel temperatureChannel = new DataChannel(&quot;Room Temperature&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="    &quot;Room_Temperature&quot;);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The BMP085probe class overides the abstract method that provides access to the DataChannel objects  :"/>
+            <ITEXT CH="Die Klasse BMP085probe überschreibt die abstrakte Methode, die den Zugriff auf die DataChannel-Objekte bietet:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" @Override"/>
@@ -344,11 +328,7 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The I2CBus object from the Pi4J library is passed to the BMP085 constructor, since it can be several peripherals on the same I"/>
-            <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C bus.  With this bus, we can configure our I"/>
-            <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C device.  The BMP085 has the address 0×77."/>
+            <ITEXT CH="Das I2CBus Objekt aus der Pi4J Bibliothek wird dem BMP085 Konstruktor übergeben, da es mehrere Peripheriegeräte auf dem gleichen I²C-Bus geben kann. Mit diesem Bus können wir unser I²C-Gerät konfigurieren. Das BMP085 hat die Adresse 0x77."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" public static final int BMP085_I2C_ADDR = 0x77;"/>
@@ -368,7 +348,7 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The dataReaderThread object is used to send a request for temperature and pressure information.  Then the thread reads two bytes of raw temperature information and three bytes of raw pressure information."/>
+            <ITEXT CH="Das dataReaderThread Objekt wird verwendet, um eine Anfrage für Temperatur- und Druck zu verschicken. Dann liest der Thread zwei Bytes Temperatur-Rohdaten und drei Bytes Druck-Rohdaten."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" bmp085device.write(CONTROL, READTEMPCMD);            //Send read temperature command"/>
@@ -390,10 +370,7 @@
             <ITEXT FONTSIZE="9" CH=" rawPressure = ((msb &lt;&lt; 16) + (lsb &lt;&lt; 8) + xlsb) &gt;&gt; (8-OSS); //make raw pressure integer"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This raw data can be converted into units of Pascals and Degrees by following the BMP085 datasheet at"/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH=" http://"/>
-            <ITEXT FCOLOR="Blue" CH="goo.gl/CborFs"/>
-            <ITEXT CH=" and using the calibration values previously read.  Java does not support native unsigned interger types.  It is therefore more convenient to replace bit shifting with division and multiplication.  "/>
+            <ITEXT CH="Mit BMP085 Datenblatt (http://goo.gl/CborFs) und unter Verwendung der zuvor gelesenen Kalibrierungswerte können diese Rohdaten in Pascal und Grad Celsius Einheiten umgewandelt werden. Java unterstützt keine nativen unsigned integer Typen. Es ist daher einfacher Bit-Shift Operationen durch Division und Multiplikation zu ersetzen.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" double temperature = 0.0;"/>
@@ -442,18 +419,17 @@
             <ITEXT FONTSIZE="9" CH=" pressure = pressure + (x1 + x2 + 3791) / 16;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This sensor can provide a high rate of data.  To enhance the precision, a thread can take 5 data points, average them and add this new measurement every second to the dataChannel object."/>
+            <ITEXT CH="Dieser Sensor kann eine hohe Datenrate liefern. Um die Genauigkeit zu erhöhen, kann ein Thread 5 Datenpunkte mitteln und diesen Durchschnitt jede Sekunde an das DataChannel-Objekt anfügen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To add the BMP085 to the final program, in the main class of the program we get an instance of the Pi4J I2CBus, instantiate the BMP085probe and add it to the ProbeManager."/>
+            <ITEXT CH="Um das BMP085 zum endgültigen Programm hinzuzufügen, besorgt man sich in der Main Klasse eine Instanz aus der Pi4J I2CBus Factory, instantiiert BMP085probe und fügt dies dem probeManager hinzu."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" private void initI2CandBMP085probe() {"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="   try {"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="     final I2CBus bus = I2CFactory.getInstance(I2CBus.BUS_1);"/>
-            <ITEXT CH=" //Change to BUS_0 for Rev 1 boards."/>
+            <ITEXT FONTSIZE="9" CH="     final I2CBus bus = I2CFactory.getInstance(I2CBus.BUS_1); //Change to BUS_0 for Rev 1 boards."/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="     bmp085Probe = new BMP085probe(bus);"/>
             <para PARENT="Code"/>
@@ -468,11 +444,11 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Now the two DataChannel temperature and air pressure values can be acquired, logged, and displayed as a chart."/>
+            <ITEXT CH="Nun können die beiden DataChannel Werte für Temperatur und Luftdruck ermittelt, protokolliert und als Diagramm angezeigt werden."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="In the next article, additional instructions will be given to export the data and setup a web page to view the data.  Until then, try putting the code together and try it out with the hardware configuration described."/>
-            <trail/>
+            <ITEXT CH="Im nächsten Artikel gibt es weitere Anweisungen für Datenexport und Setup einer Web-Seite zum Anzeigen der Daten. Bis es soweit ist, versuche den Code zu erstellen und probiere die beschriebene Hardware-Konfiguration aus."/>
+            <para PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614174" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="38" BACKITEM="25">
@@ -558,7 +534,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="406.748016357422" YPOS="1310.38586425781" WIDTH="281.935424804688" HEIGHT="168.614135742188" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.285" LOCALSCY="0.285" LOCALX="5.31180390090301e-05" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="09_software_overview_en.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 281.935 0 281.935 0 281.935 0 281.935 0 281.935 168.614 281.935 168.614 281.935 168.614 281.935 168.614 0 168.614 0 168.614 0 168.614 0 168.614 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 281.935 0 281.935 0 281.935 0 281.935 0 281.935 168.614 281.935 168.614 281.935 168.614 281.935 168.614 0 168.614 0 168.614 0 168.614 0 168.614 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="411" YPOS="1312.91433070866" WIDTH="264.43362992126" HEIGHT="157.085669291338" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.285" LOCALSCY="0.285" LOCALX="-22.8139245752172" LOCALY="-21.1525138626385" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="09_software_overview_en.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 264.434 0 264.434 0 264.434 0 264.434 0 264.434 157.086 264.434 157.086 264.434 157.086 264.434 157.086 0 157.086 0 157.086 0 157.086 0 157.086 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 264.434 0 264.434 0 264.434 0 264.434 0 264.434 157.086 264.434 157.086 264.434 157.086 264.434 157.086 0 157.086 0 157.086 0 157.086 0 157.086 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
