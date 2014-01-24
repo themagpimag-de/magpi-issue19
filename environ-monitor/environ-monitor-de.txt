@@ -8,7 +8,6 @@ Das Ziel des Projekts ist es Tag und Nacht, ohne Unterbrechung zu laufen. Deshal
 
 Raspbian ist ein sehr komfortables Betriebssystem. Das Standard-Image enthält jetzt die Oracle Java Virtual Machine, die sehr effizient ist. Das Standard Raspbian Image enthält auch Systemtreiber für die Busse (I2C, SPI, UART), die über die GPIO-Pins zur Verfügung stehen. Um Raspbian auf einer SD-Karte zu installieren, folge den offiziellen Tutorials auf http://www.raspberrypi.org/downloads. Die auf dem Raspberry Pi GPIO verfügbaren Busse können mit Hilfe der Java-Bibliothek Pi4J gesteuert werden. Diese Bibliothek wird später in diesem Artikel erläutert. Für die Leser die nicht mit Java vertraut sind, bietet die Serie Cup of Java MagPi eine grundlegende Einführung in den Ausgaben 14 und 17.
 
-
 Anschluß des BMP085
 
 Das BMP085 ist eine sehr präzise und kostengünstige Lösung zur Temperatur- und Luftdruckmessung. Es kann von http://www.adafruit.com oder von einem ihrer Händler bestellt werden. Es kommt in der Regel auf einer Leiterplatte montiert, die direkt am I2C-Bus des Raspberry Pi angeschlossen werden kann.
@@ -18,7 +17,6 @@ Bevor das BMP085 verwendet werdenkann, muss das i2c-Kernel-Modul aktiviert sein.
  sudo nano modprobe.d/raspi-blacklist.conf
 
 Suchen Sie die Zeile blacklist i2c-bcm2708 und fügen Sie einen Hash "#" am Anfang der Zeile ein, so wird es #blacklist i2c-bcm2708 . Zum Speichern und Beenden, drückt man <Ctrl> + <X> und dann <Y> und die Eingabetaste. 
-
 
 Als Nächstes bearbeiten Sie die Datei modules. Eingabe auf der Befehlszeile: 
 
@@ -31,7 +29,6 @@ Starten Sie den Raspberry Pi neu und öffnen Sie ein Terminal-Fenster zur Eingab
  sudo i2cdetect -y 1
 
 HINWEIS:  Wenn man Revision 1 des Raspberry Pi hat, muss 0 statt 1 für die Buslinie im obigen Befehl benutzt werden. Die Revision 1 des Pi hat keine Befestigungslöcher auf der Leiterplatte. Neuere Versionen haben 2 Montagebohrungen. 
-
 
 Die Antwort sollte 77 in der Adressliste zeigen. Weitere Informationen sind im Adafruit Tutorial http://goo.gl/PDrZGL zur Verfügung gestellt.
 
@@ -60,23 +57,19 @@ Durch die Erfassung aller Daten ist es nachträglich möglich, die Analysemethod
 
 Struktur
 
-Sonden auf den Raspberry Pi angeschlossen sind, können mehrere Werte, die unabhängig sein können. Die gewählte Lösung besteht aus einer abstrakten Klasse für die Sonden, die für jeden Sensor mit dem System verbunden implementiert werden muss. Eine Sonde Implementierung dieser Klasse müssen eine oder mehrere Datachannel-Objekte, die das Datenmodell zu vertreten ist. Im Sinne einer Model-View-Controller-Muster, kann die probe Klasse wie der Controller zu sehen ist, das Anpassen der Ansicht-.
-
+Die angeschlossenen Sonden können viele verschiedene Arten von Werten liefern. Die gewählte Lösung besteht aus einer abstrakten Klasse für die Sonden, die für jeden angeschlossenen Sensor implementiert werden muss. Eine Sonden-Implementierung dieser Klasse muss eine oder mehrere DataChannel-Objekte haben, die als Datenmodell dienen. Im Sinne des Model-View-Controller Patterns, kann die ProbeManager Klasse als Controller gesehen werden, der die View steuert.
 
 Die Klasse DataChannel umfasst alle Funktionen, die für jede Art von Daten gebräuchlich sind.   Sie lädt bei der Instanziierung die bisherigen Daten aus der Protokolldatei, protokolliert neue Daten und berechnet Durchschnitte. Die verschiedenen Implementierungen von AbstractProbe beinhalten spezifische Funktionen für den jeweilligen Typ des Sensors. Jede abgeleitete Klasse sollte den Sensor konfigurieren, Daten verarbeiten oder konvertieren und sie dann dem richtigen DataChannel-Objekt zuführen.
-
 
 Anbindung an das BMP085
 
 Die Klasse BMP085probe erweitert AbstractProbe und bietet Zugriff auf DataChannel-Objekte. Es gibt zwei Objekte: eines für die Temperatur und ein zweites für den Luftdruck. Die beiden Argumente des DataChannel Konstruktors ist der Name für die Anzeige und der Name der Datendatei.
 
-
- private DataChannel pressureChannel = new DataChannel("Atmospheric Pressure",     
+ private DataChannel pressureChannel = new DataChannel("Luftdruck",     
      "Atmospheric_Pressure");
- private DataChannel temperatureChannel = new DataChannel("Room Temperature", "Room_Temperature");
+ private DataChannel temperatureChannel = new DataChannel("Zimmertemperatur", "Room_Temperature");
 
 Die Klasse BMP085probe überschreibt die abstrakte Methode, die den Zugriff auf die DataChannel-Objekte bietet:
-
 
  @Override
  public DataChannel[] getChannels() {
@@ -84,7 +77,6 @@ Die Klasse BMP085probe überschreibt die abstrakte Methode, die den Zugriff auf 
  }
 
 Das I2CBus Objekt aus der Pi4J Bibliothek wird dem BMP085 Konstruktor übergeben, da es mehrere Peripheriegeräte auf dem gleichen I2C-Bus geben kann. Mit diesem Bus können wir unser I2C-Gerät konfigurieren. Das BMP085 hat die Adresse 0x77.
-
 
  public static final int BMP085_I2C_ADDR = 0x77;
  private I2CDevice bmp085device;
@@ -97,19 +89,17 @@ Das I2CBus Objekt aus der Pi4J Bibliothek wird dem BMP085 Konstruktor übergeben
 
 Das dataReaderThread Objekt wird verwendet, um eine Anfrage für Temperatur- und Druck zu verschicken. Dann liest der Thread zwei Bytes Temperatur-Rohdaten und drei Bytes Druck-Rohdaten.
 
-
- bmp085device.write(CONTROL, READTEMPCMD);            //Send read temperature command
- sleep(50);                                           //wait the convertion time
- rawTemperature = readU16(DATA_REG);                  //retrieve the 2 bytes
- bmp085device.write(CONTROL, (byte) READPRESSURECMD); //Send read pressure command
- sleep(50);                                           //wait the convertion time
- msb = readU8(DATA_REG);                              //retrieve the 3 bytes
+ bmp085device.write(CONTROL, READTEMPCMD);            //Sende Befehl ‘read temperature’
+ sleep(50);                                           //warte auf Daten
+ rawTemperature = readU16(DATA_REG);                  //lese 2 Bytes aus
+ bmp085device.write(CONTROL, (byte) READPRESSURECMD); //Sende Befehl ‘read pressure’
+ sleep(50);                                           //warte auf Daten
+ msb = readU8(DATA_REG);                              //lese 3 Bytes aus
  lsb = readU8(DATA_REG+1);
  xlsb = readU8(DATA_REG+2);
- rawPressure = ((msb << 16) + (lsb << 8) + xlsb) >> (8-OSS); //make raw pressure integer
+ rawPressure = ((msb << 16) + (lsb << 8) + xlsb) >> (8-OSS); //Erzeuge Integer für Druck Rohdaten
 
 Mit BMP085 Datenblatt (http://goo.gl/CborFs) und unter Verwendung der zuvor gelesenen Kalibrierungswerte können diese Rohdaten in Pascal und Grad Celsius Einheiten umgewandelt werden. Java unterstützt keine nativen unsigned integer Typen. Es ist daher einfacher Bit-Shift Operationen durch Division und Multiplikation zu ersetzen.  
-
 
  double temperature = 0.0;
  double pressure = 0.0;
@@ -137,12 +127,11 @@ Mit BMP085 Datenblatt (http://goo.gl/CborFs) und unter Verwendung der zuvor gele
 
 Dieser Sensor kann eine hohe Datenrate liefern. Um die Genauigkeit zu erhöhen, kann ein Thread 5 Datenpunkte mitteln und diese Durchschnitt jede Sekunde an das DataChannel-Objekt anfügen.
 
-
 Um das BMP085 zum endgültigen Programm hinzuzufügen, besorgt man sich in der Main Klasse eine Instanz aus der Pi4J I2CBus Factory, instantiiert BMP085probe und fügt dies dem probeManager hinzu.
 
  private void initI2CandBMP085probe() {
    try {
-     final I2CBus bus = I2CFactory.getInstance(I2CBus.BUS_1); //Change to BUS_0 for Rev 1 boards.
+     final I2CBus bus = I2CFactory.getInstance(I2CBus.BUS_1); //Ändere auf BUS_0 für Rev 1 boards.
      bmp085Probe = new BMP085probe(bus);
      probeManager.addProbe(bmp085Probe);
    } catch (IOException e) {
@@ -153,3 +142,4 @@ Um das BMP085 zum endgültigen Programm hinzuzufügen, besorgt man sich in der M
 Nun können die beiden DataChannel Werte für Temperatur und Luftdruck ermittelt, protokolliert und als Diagramm angezeigt werden.
 
 Im nächsten Artikel gibt es weitere Anweisungen für Datenexport und Setup einer Web-Seite zum Anzeigen der Daten. Bis es soweit ist, versuche den Code zu erstellen und probiere die beschriebene Hardware-Konfiguration aus.
+
