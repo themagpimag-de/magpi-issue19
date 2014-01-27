@@ -227,7 +227,7 @@
             <ITEXT CH="Töne erzeugen"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Starte Sonic Pi.  Du wirst drei Bereiche wie auf dem Screenshot auf der nächsten Seite sehen. "/>
+            <ITEXT CH="Starte Sonic Pi.  Du wirst drei Bereiche sehen, wie auf dem Screenshot auf der nächsten Seite. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -401,9 +401,9 @@
             <ITEXT CH=" play_pattern_timed [52,48,55],[1]"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="aber eigentlich die Noten als 48,52,55 gespielt haben wollen. Indem wir "/>
+            <ITEXT CH="aber eigentlich die Noten als 48,52,55 gespielt haben wollen. Wir können das erreichen, indem wir "/>
             <ITEXT FONT="Monaco Regular" CH=".sort"/>
-            <ITEXT CH=" anhängen, können wir das erreichen:"/>
+            <ITEXT CH=" anhängen:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" play_pattern_timed [52,48,55].sort,[1]"/>
@@ -608,7 +608,7 @@
             <ITEXT CH="Herzlichen Glückwunsch! Du hast Dein erstes Weihnachtslied programmiert! "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Weitere Informationen über Sonic Pi findest Du auf http://www.cl.cam.ac.uk/projects/raspberrypi/sonicpi/ . Viel Spass bei Deiner nächsten Melodie!"/>
+            <ITEXT CH="Weitere Informationen über Sonic Pi findest Du auf http://www.cl.cam.ac.uk/projects/raspberrypi/sonicpi/ . Viel Spaß bei Deiner nächsten Melodie!"/>
             <para PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
