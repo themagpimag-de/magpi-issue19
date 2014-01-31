@@ -1,0 +1,129 @@
+﻿Ein Quadcopter ist ein Fluggerät mit vier Propellern, dass entweder autonom (mit einer festen Flug Routine programmiert) oder über eine Fernbedienung gesteuert wird.
+
+
+Dieser erste Artikel (hoffentlich einer Serie) umfasst einen kurzen Überblick, wie Quadcopter arbeiten, wie man einen Raspberry Pi-gesteuerten baut, Informationen darüber wo Du alle Teile herbekommst und wie alles zusammengesetzt wird -- physisch, elektronisch und die Software. Das Ergebnis sollte ein Quadcopter sein, der autonom starten, schweben und landen kann (und das mit Vorsicht!).
+
+
+Zukünftige Artikel werden mehr Details über Tests und Tuning dieses einfachen Quadcopters enthalten, einschließlich Code-Erweiterungen für seitliche Flugmanöver, eine Raspberry Pi Fernbedienung und vielleicht Erweitungen um GPS-Tracking.
+
+
+Teile eines Quadcopters
+
+
+Zuerst ein schneller Abriss aller Teile, die einem Quadcopter ausmachen.
+    
+Es gibt vier Propellerblätter. Zwei der vier sollen im Uhrzeigersinn drehen, die beiden anderen im Gegenuhrzeigersinn. Blätter mit gleichen Drehsinn sind diagonal gegenüberliegend am Rahmen angeordnet. Eine solche Anordnung der Blätter verhindert eine Eigendrehung des Quadcopters in der Luft. Durch unterschiedliche Leistungszufuhr zu jedem Propeller und damit unterschiedlichn Hub in den Ecken des Quadcopters, ist es nicht nur möglich zu starten, zu schweben und zu landen, sondern auch durch Kippen, den Quadcopter horizontal zu bewegen und Kurven zu drehen.
+          
+Jeder Propeller hat einen eigenen bürstenlosen Gleichstrommotor. Diese Motoren können im Uhrzeigersinn oder gegen den Uhrzeigersinn drehend Betrieben werden, je nach montiertem Propeller. Der Motor hat drei Gruppen von Spulen um den festenstehenden Teil (Stator genannt).  An der Propellerwelle (Rotor genannt) sind Magnete ebenfalls in Gruppen angebracht. Um die Blätter zu bewegen, wird die Energie zu einer Gruppe von Spulen angelegt, die Rotormagnete werden von dieser Spule angezogen. Diese Spule wird dann abgeschaltet und die nächste Gruppe eingeschaltet, so bewegt sich der Rotor um auf die nächste Spule zu. Wiederholt man dies für drei Spulen in Folge, ergibt sich eine Rotation des Motors. Je schneller man zwischen den drei angetriebenen Spulen wechselt, desto schneller dreht sich der Motor. Dies macht den Motor passend für "digitale" Steuerung - die Richtung und Geschwindigkeit der Bewegung des Propellerblattes entspricht Reihenfolge und Rate der Stromimpulse die an die Spulen angelegt werden. Diese Motoren brauchen viel Strom um die Propellerblätter schnell genug drehen, um soviel Auftrieb zu erzeugen, dass der Quadcopter abhebt -- weit mehr Energie als ein Raspberry Pi liefern kann -- das übernimmt ein Electronic Speed ​​Controller (ESC). Er übersetzt zwischen einem pulsweitenmodulierten (PWM) Steuersignal vom Raspberry Pi und wandelt es in drei Hochstromsignale, eines für jede Motorspule. Sie sind die kleinen weißen Objekte, die unter den Armen des Quadcopters festgeklettet sind.
+
+
+Auf dem Steckbrett unterhalb des Raspberry Pi sind Sensoren angebracht. Ein Gyroskop liefert dem Raspberry Pi Informationen über Neigen und Rollen in drei Dimensionen, sowie Informationen zur Beschleunigung vorwärts, rückwärts, links, rechts, oben und unten. Alle Sensoren sind über die GPIO I2C Pins des Raspberry Pi angeschlossen.  
+Im Schaltplan kannst Du sehen, dass ich erwäge einen Piepser hinzuzufügen, so kann ich hören was der Quadcopter glaubt zu tun.
+Die Energie für all das, kommt von einer einzigen Lithium-Polymer (LiPo)-Batterie die liefert 11,1V bis zu einem Spitzenstrom von 100A. Mit der vollen Ladung von 3300 mAh können 3,3A für eine Stunde oder 100A für zwei Minuten oder irgendwo dazwischen geliefert werden. Die ist eine mächtiges und gefährliches Tier, aber sie wiegt nur 250 Gramm. Es erfordert ein spezielles Ladegerät -- falls nicht, wird aus einem LiPo-Akku leicht eine LiPo-Bombe -- also Vorsicht. Es gibt einen Regler auf dem Steckbrett, um aus der Energie der Batterie die 5V für den Raspberry Pi zu liefern und zusätzlich bietet er auch einen gewissen Schutz vor großen Stromstößen die die Motoren von der Batterie ziehen.
+
+
+Bleibt noch das schlagende Herz des Quadcopter selbst, der Raspberry Pi. Durch Python-Code liest er die Sensoren aus, vergleicht sie mit einer gewünschten Aktion (z.B. starten, schweben, landen), die entweder vom Code oder von einer Fernbedienung vorgegeben wird, wandelt die Differenz zwischen dem, was der Quad macht (von den Sensoren) und was er tun sollte (aus dem Code oder der Fernbedienung) und ändert die Leistung, jeder der Motoren individuell, bis die gewünschte Aktion mit den Sensorausgängen übereinstimmen.
+
+
+Erschaffe Deinen Quadcopter
+
+
+Oberste Regel, Flugmaschinen und Boote sind weiblich und sie haben Namen; Meine heißt Phoebe ("Fiebie"). Gib ihm einen Namen und behandele ihn gut und vielleicht wird er es Dir Danken!
+Phoebes Körper, Arme, Beine, Rotorblätter, Motoren, ESC und Batterien sind Fertigbausätze. Gesamtkosten sind über £250. Inklusive eines Raspberry Pi und anderen Requisiten, sind die Gesamtkosten vielleicht £300 -- £350. Nicht billig, für etwas, das am Anfang eher abstürzt als fliegt!
+
+
+Eine komplette Stückliste ist unter http://blog.pistuffing.co.uk/?p=1143 verfügar.
+
+
+Tatsächlich habe ich auf Motoren mit höhere Leistung und weniger Gewicht aufgerüstet, aber das ist absolut nicht notwendig. Die durch den Bausatz zur Verfügung gestellte Ausrüstung ist ausgezeichnet. Upgrade von Komponenten für die Gewichtsreduktion / Energie-Effizienz und Leistung ist auf jeden Fall für später, nachdem einmal das Grundgerüst steht.
+
+
+Der Raspberry Pi ist ein Modell A, wegen geringerem Gewicht und Stromverbrauch  Dies sind Faktoren die sich auch in anderen Teilen des Design widerspiegeln. Ich habe die Audio- und Video-Ausgänge entfernt und nutze einen Micro-SD-Card Adapter von Pimoroni. Alles im Namen der Gewichtsersparnis
+
+
+Das Raspberry Pi Gebäuse ist eine Variante des Pimoroni PiBow Modell B, mit ein paar entfernten Steegen und einige verschlossenen Löchern um das Gewicht zu reduzieren und die Festigkeit zu erhöhen (Schutz vor Abstürzen!). Ich habe den Entwurf unter http://blog.pistuffing.co.uk/wp-content/uploads/2013/ 10/Pibow002-AB5.pdf abgelegt. Phenoptix machen einen tollen Job beim kostengüstigen Laserschneiden von 3mm Acryl.
+
+
+Mit Phoebe sprechen
+
+
+Egal ob Phoebe autonom oder ferngesteuert fliegt, jemand muss ihr zu sagen was zu tun ist. Zu diesem Zweck betreibt Phoebe einen Wireless Access Point (WAP), so kann ein anderer Computer in ihr privates Netzwerk; für SSH Zugang oder um Fernsteuerungskommandos abzusetzen. Wie ich es gemacht habe siehst du unter http://blog.pistuffing.co.uk/?p=594.
+Für erste Tests ist die WAP-Funktionalität nicht notwendig, jedes Heim-WLAN ist ausreichend, aber wenn Dein Quadcopter zum Leben erwacht, willst Du die Tests weit weg von Tieren, Kindern und andere Wertsachen durchführen die nicht beschädigt werden sollen, wie sich selbst. Mit einem WAP kannst Du im Garten, im Park oder einem Feld testen.
+
+
+Vorstellung von Phoebes Python-Code
+
+
+Der letzte Schritt ist natürlich der Wichtigste. Wenn man Quadcopter mit Rotorblättern, Motoren, ESC, Stromversrogung und Schaltkreisen ausgestattet hat, verbinden wir alles durch den Python-Code. Ich werde nicht in die Details gehen, da der Code auf https://github.com/PiStuffing/Quadcopter zur Verfügung steht und selbsterklärend sein sollte. Es gibt mehr Zeilen Kommentare, als es Zeilen an eigentlichem ausführbarem Code gibt!
+
+
+Die I2C Klasse stellt eine Programmierschnittstelle zum Lesen und Schreiben von Sensordaten dar. Darauf baut die MPU6050 Klasse auf, mit der die Sensoren konfiguriert werden. Sie liefert dann eine API zum Lesen der Daten und die Umwandlung der Sensor Rohdaten in sinnvolle, menschenlesbare Werte (z.B. Grad/s für die Drehung oder m/s2 für Beschleunigung).
+Die QUADBLADE Klasse übernimmt für jeden Rotor die Initialisierung und Einstellung der PWM-Daten, um die Drehgeschwindigkeiten der Propeller zu steuern. Der PID-Klasse ist das verbindende Element und der zentrale Punkt bei Entwicklung und Tests. Es ist das nötige Feingefühl, was die Konfiguration eines Quadcopters sowohl spannend als auch gruselig macht! Das alleine wäre schon einen eigenen Artikel wert. Vorerst gibt es am Ende einen kurzen Überblick über das, Was und Wie.
+
+
+Es gibt Hilfsfunktionen für die Verarbeitung der Start-Kommandozeilen-Parameter, für die Signalbearbeitung (die Panik-Taste Strg-C) und den Shutdown Code
+
+
+Zu guter Letzt, gibt es die große "while keep_looping:" Schleife, die hundert Mal pro Sekunde überprüft was zu tun ist (starten, schweben, landen, usw.), liest die Sensoren aus, regelt die PIDs, aktualisiert die PWM und fängt wieder von vorne an!
+
+
+PID
+
+
+Die PID (Proportional-, Integral-, Differential)-Klasse ist ein relativ kleines und einfaches Stück Code, um eine recht komplexe Aufgabe durchzuführen. Ihr wird ein "Soll"-Wert und ein "Ist"-Wert übergeben. Der Unterschied zwischen beiden ist der "Fehler". Die PID verarbeitet diesen "Fehler" und erzeugt einen "Ausgang", der den Unterschied zwischen dem "Soll" und "Ist" auf Null reduzieren soll. Sie wiederholt dies ständig um den "Ausgang" anzupassen, ohne eine Vorstellung von dem zu haben, was "Ist", "Ausgang", "Soll" tatsächlich bedeuten; Im Kontext der realen Welt bedeuten sie für den Quadcopter: Gewicht, Schwerkraft, Windkraft, RC-Befehle, Lage, Dynamik, Geschwindigkeit und alle anderen Faktoren, die entscheidend für Quadcopter sind.
+
+
+Im Rahmen eines Quadcopters ist "Soll" ein Flug-Befehl (schweben, starten, landen, vorwärts bewegen), "Ist" sind Sensordaten und "Ausgang" ist die PWM-Impulsgröße für die Motoren.
+
+
+Phoebe hat 4 PIDs, derzeit für Nicken, Rollen, Gieren und vertikale Geschwindigkeit, sind sie das absolute Minimum für einen geordneten Start, für Schweben und Landen.
+
+
+Die Magie der PIDs ist, dass sie keine komplexen Berechnungen enthalten, die den perfekten Flug durch eine rein mathematische Gleichung aus Kraft, Gewicht, Dehzahlen, Schwerkraft, Windgeschwindigkeit, unausgewogener Rahmen, schlechter Schwerpunkt oder die vielen anderen Faktoren, modellieren. Stattdessen wiederholen sie permanent schnelle Schätzungen, was der aktuell beste "Ausgang" ist, nur auf "Soll" und "Ist" basierend.
+
+
+Das "P" in PID steht für Proportional - bei jedem Aufruf des PID wird ein "Ausgang" erzeugt, der proportional zu "Fehler" ist - im Kontext des Quadcopters, korrigiert dies sofort Probleme und hält den absoluten "Fehler" auf Null.
+   
+Das "I" in PID steht für Integral - bei jedem Aufruf des PID wird der "Fehler" zu einer Gesamtsumme von Fehlern addiert, dass im Laufe der Zeit der Gesamt "Fehler" bei Null liegt - im Kontext des Quadcopters soll eine langfristige Stabilität geschaffen werden, indem Probleme wie Ungleichgewichte im Rahmen, Motor und Rotor Leistung, sowie Wind minimiert werden.
+   
+Das "D" in PID steht für Differential - bei jedem Aufruf des PID wird die Differenz zum Fehler  seit dem letzten Aufruf zur Berechnung des Ausgangs verwendet - wenn der "Fehler" schlechter als beim letzten Mal ist, wird der PID "D" Ausgang höher. Diese zielt auf einen vorausschauenden Ansatz zur Fehlerkorrektur ab.
+
+
+Die Ergebnisse aller drei addiert um eine Gesamtleistung zu berechnen und dann, je nach Zweck des PID, auf jeden der Rotoren entsprechend angewendet.
+
+
+Es klingt wie Magie ... und zu einem gewissen Grad ist es das! Jedes PID hat drei konfigurierbare Verstärkungsfaktoren, jeweils einen für "P", "I" und "D". Also in meinem Fall habe ich zwölf verschiedene Verstärkungsfaktoren. Das sind die magischen Zahlen, die, wenn sie zu klein, nichts tun, aber wenn sie zu groß sind, ins Chaos führen. Wenn sie falsch angewendet werden, verursachen sie eine Katastrophe. Mein nächster Artikel wird dies in viel detaillierterer Weise behandeln, sowohl Funktionsweise als auch wie die Verstärker einzustellen sind. In der Zwischenzeit, verwende die Stückliste auf Seite XX um mit dem Aufbau des eigenen Quadcopters zu beginnen. Die PID-Verstärkungsfaktoren im Code, sollten einen angemessenen Ausgangspunkt darstellen.
+        
+Fliegende Phoebe
+
+
+Im Moment ist es einfach, aber gefährlich! Setze Phoebe auf den Boden, lege eine flache Oberfläche über ihre Propellerspitzen, lege eine Wasserwaage auf dieser Oberfläche und stelle durch aufpolstern der Füße sicher, dass alles exakt waagerecht ist - das ist absolut kritisch, wenn Du nicht willst, dass sie im Flug driftet - wir werden dies in einem anderen Artikel mit einigen zusätzlichen PIDs beheben.
+
+
+Schließe den LiPo-Akku an. Die ESCs beginnen laut zu piepen - ignoriere sie.
+
+
+Warte, bis der Wifi-Dongle zu blinken beginnt - es bedeutet, dass Phoebes WAP arbeitet.
+
+
+Verbinde dich über SSH / rlogin von einem Client wie einem anderen Raspberry Pi, iPad etc., der in Phoebes-Netzwerk ist.
+
+
+Verwende den Befehl cd um in das Verzeichnis zu wechseln, in dem du Phoebes-Code gelegt hast. Gebe folgends ein:
+ 
+ sudo python ./phoebe.py -c
+ sudo python ./phoebe.py -c -t 550 -v
+
+
+-c kalibriert die Sensoren auf der flachen Oberfläche auf der sie steht.
+-t 550 setzt Rotordrehzahl auf knapp unter Startgeschwindigkeit.
+-v startet die Videokamera während des Flugs.
+
+
+Es gibt andere Optionen. Du kannst sie durch folgende Eingabe auflisten:
+
+
+ sudo python ./phoebe.py
+
+
+Habe Spaß, aber sei vorsichtig.
