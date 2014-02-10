@@ -200,224 +200,222 @@
             <trail LINESP="28"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="360.080718994141" WIDTH="538.588317871094" HEIGHT="450.786712646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 450.787 538.588 450.787 538.588 450.787 538.588 450.787 0 450.787 0 450.787 0 450.787 0 450.787 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 450.787 538.588 450.787 538.588 450.787 538.588 450.787 0 450.787 0 450.787 0 450.787 0 450.787 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body text" LAYER="6" BOOKMARK="0" NEXTITEM="26" BACKITEM="-1">
-            <ITEXT CH="Vor 12 Monaten wurde der Pi Store mit nur 24 Produkten eröffnet. Huete sind über 100 Pridukte vorhanden, die meisten davon frei. Das MagPi schaut sich einige der unterschiedlichen Produkte im Pi Store an; hierbei besonders die kostenpflichtigen, um bei der Auswahl zu helfen."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Digitale Downloads"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Als einer der ersten Firmen hat Apple die Idee des digitalen downloads von Musik und Filmen mit ihrem iTunes Store aufgegriffen. Es folgte der AppStore, der iBook Store und schliesslich iTunes U für Studenten. Der App Store war die einzige Möglichkeit, für mobile Apple Geräte Anwendungen zu beziehen; dies wurde später für Apples MacBook und iMac Computer erweitert."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Amazon war ein Pionier beim digitalen download von Büchern und heutzutage bieten alle grossen Bücherläden digitale downloads an. Und natürlich sind die Vorteile der sofortigen Bezahlung von digitalen Inhalten nicht an den Spielkonsolen Herstellern wie Microsoft, Sony und Nintendo vorbeigegangen, die alle digitale Shops für ihre Spiele anbieten. App Stores sind weniger häufig für Windows PCs, mit der grossen Ausnahme Spiele."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Vorstellung des Pi Store"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Die bereitstellenden Firmen der soeben vorgestellten Stores haben ein kommerzielles Interesse. Dies war jedoch nicht der Fall für die Rasberry Pi Foundation, als sie den Pi Store startete. Anstatt an das Geld zu denken, sahen sie die folgenden Vorteile für die Einführung eines App Stores für für den Rasberry Pi:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="  - Einen Platz, an dem Entwickler jedes Alters"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="    ihre Produkte mit der Raspberry Pi"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="    Gemeinschaft teilen können."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="  - Einen Platz, an dem blutige Anfänger tolle"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="    Rasberry Pi Titel installieren und löschen"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="    können, ohne eine Kommandozeile nutzen zu"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="    müssen."/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="  - Einen Platz, an dem jeder Rasberry Pi Nutzer"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="    neue Inhalte für seinen Rechner entdecken"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="    kann. "/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="Leider haben einige dies nicht gesehen, und kritisierten die Foundation, dass sie Kindern Kapitalismus beibringen würden! Aber ist das denn etwas anderes, als wenn man Kindern Taschengeld gibt, wenn sie ihre Hausaufgaben machen? Nachdem das gesagt wurde: es gibt aktuell mehr als 100 Titel und während dieser Artikel geschrieben wird sind nur sechs kostenpfichtig... und man kann alle zusammen für weniger als 12,00$/8,00£ kaufen. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Der Pi Store ist in fünf Kategorien unterteilt: Spiele (Games), Apps, Anleitungen (Tutorials), Entwickler-Tools (Dev-Tools) und Medien (Media). Bevor wir uns die einzelnen Rubriken näher ansehen einige Tipps zur Navigation, die Dir bei der Suche helfen. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Im 'Explore'-Tab des Pi Stores gibt es eine Option zum filtern des Inhaltes nach Status sowie zum Sortieren. Wenn Du Inhalt sehen willst, der noch in Arbeit ist (work-in-progress), dann ändere den Status-Filter nach 'In Progress'. Du kannst ihn auch auf 'Show All' setzen, um alles im Pi Store zu sehen."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Es gibt viele Sortierungs-Optionen, die sinnvollsten sind 'Most Played', 'Newest First' und 'Top Rated'. Beachte, dass der Store zZt diese Einstellungen nicht speichert. Beim nächsten Aufruf des Pi Stores wird der Status wieder auf 'Finished' und die Sortierung auf 'Price - Highest' zurückgesetzt."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Einige Programme im Store laufen nicht unter LXDE und benötigen einen Neustart bevor sie laufen. Obwohl eine entsprrechende Warnung auf der Seite existiert, gibt es kein endgültiges &quot;Are You sure?&quot; nachdem Du auf 'Launch' gedrückt hast. Gehe daher sicher, dass Du vorher alles gesichert hast."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH="Vergiss nicht zu Spenden!"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Wenn Du in einem Resaurant gut bedient wirst, gibst Du ein Trinkgeld. Fast alles im Pi Store ist kostenlos. Wenn Dir ein Spiel gefällt oder Du ein nützliches Programm gefunden hast, überlege, ob Du deine Anerkennung zeigen willst, indem Du eine Spende für den Entwickler hinterlassen willst. Dies ist ganz einfch: in deiner Bibliothek wählst Du den Titel aus, für den Du spenden willst und klickst auf 'View Details'. In der folgenden Seite klickst Du 'Tip this Project' um 1,00$/1,00£ zu spenden."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Spiele (Games)"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH="Erstaunlicherweise ist dies nicht die grösste Kategorie im Pi Store, aber mit 30 Titeln ist für jeden Spieler etwas dabei."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="Bei "/>
-            <ITEXT FONT="FreeSans Bold" CH="Dr Bulbaceous : Puzzle Solver"/>
-            <ITEXT CH=" (US$2.99/"/>
-            <ITEXT FONT="FreeSans Regular" CH=" £"/>
-            <ITEXT CH="1.99) lässt Du drei verschiedenfarbige Gegenstände fallen. Wenn drei oder mehr sich berühren, verschwinden sie. Das Ziel ist, den Bildschirm zu leeren, bevor die Gegenstände die Decke erreichen. Obwohl ich das Spielzu einfach fand, werden Kinder es lieben. Es ist farbenfroh und gut implementiert. Tipp: um deinen aktuellen Gegenstand mit etwas bessereb zu tauschen, drücke die Enter-Taste. Es sieht so aus, als ob die Maus funktionieren sollte, aber bei mir hat's nicht geklappt."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Alas "/>
-            <ITEXT FONT="FreeSans Bold" CH="Zombie X Pro"/>
-            <ITEXT CH=" ($1.60/"/>
-            <ITEXT FONT="FreeSans Regular" CH="£"/>
-            <ITEXT CH="1.00) lief bei mir nicht richtig, daher kann ich es nicht kommentieren. Es gibt eine Demo-Option, damit Du es vorher ausprobieren kannst."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" CH="DmazeD"/>
-            <ITEXT CH=" macht viel Spass. Du durchsuchst einen Irrgarten nach einen Schlüssel für den AUsgang. Es ist aber so dunkel, dass Du nur ein begrenztes Feld sehen kannst. Horsche auf die Monster, die auch mit Dir im Irrgarten sind!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Ein weiteres Spiel, das mir sehr viel Spass gemacht hat, ist "/>
-            <ITEXT FONT="FreeSans Bold" CH="The Little Crane That Could"/>
-            <ITEXT CH=". Durch geschickten Gebrauch von deinem Kran und seiner vielen Bewegungen musst Du eine Serie von immer schwieriger werdenen Aufgagen erfüllen."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Viele Leute eines gewissen Alters (wie ich) nutzen den Rasberry Pi um das goldene Zeitealter der Home-Computer wieder aufleben zu lassen. Es herrschte keine Knappheit an Spielen, die von diesen Jahrzehnt inspiriert sind. Im Pi Store beinhaltet dies "/>
-            <ITEXT FONT="FreeSans Bold" CH="Abandoned Framhouse Adventure"/>
-            <ITEXT CH=" und "/>
-            <ITEXT FONT="FreeSans Bold" CH="King's treasure"/>
-            <ITEXT CH=" - klassische Text Adventures, "/>
-            <ITEXT FONT="FreeSans Bold" CH="Chocolate Doom"/>
-            <ITEXT CH=" - spiele alle Versionen von Doom, "/>
-            <ITEXT FONT="FreeSans Bold" CH="NXEngine"/>
-            <ITEXT CH=" - ein Clon der &quot;Cave Story&quot; Action-Adventure, "/>
-            <ITEXT FONT="FreeSans Bold" CH="Star Flite"/>
-            <ITEXT CH=" - ein Star Trek retro Spiel und einen Emulator für den "/>
-            <ITEXT FONT="FreeMono Bold" CH="Atari800"/>
-            <ITEXT CH="."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Andere excellente Spiele sind "/>
-            <ITEXT FONT="FreeSans Bold" CH="Freeciv"/>
-            <ITEXT CH=" - ein Strategie Spiel, "/>
-            <ITEXT FONT="FreeSans Bold" CH="Sqrxz 2"/>
-            <ITEXT CH=" and "/>
-            <ITEXT FONT="FreeSans Bold" CH="Sqrxz 3"/>
-            <ITEXT CH=" - Action-Adventure,  das beeindruckende "/>
-            <ITEXT FONT="FreeSans Bold" CH="Open Arena"/>
-            <ITEXT CH=" - Ego-Shooter, "/>
-            <ITEXT FONT="FreeSans Bold" CH="OpenTTD"/>
-            <ITEXT CH=" - ein Simulations Spiel, das auf Transport Tycoon Deluxe basiert und "/>
-            <ITEXT FONT="FreeSans Bold" CH="Iridium Rising"/>
-            <ITEXT CH=" - ein 3D Space Spiel, welches zZt. allerdings ein &quot;Servers Full&quot; Problem hat."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Das erste kommerzielle Spiel im Pi Store war "/>
-            <ITEXT FONT="FreeSans Bold" CH="Storm In A Teacup"/>
-            <ITEXT CH=". Es bleibt eines meiner beliebtesten Rasberry Pi Spiele; leider ist es vor Kurzen aus dem Pi Store entfernt worden. Hoffentlich kommt es bald zurück."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Anwendungen (Apps)"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH="Bei weitem die grösste Kategorie im Pi Store. Es existiert eine unglaubliche Auswahl an Titeln, von Hilfsprogrammen über Emulatoren, Medien Programmen bis zu schwergewichtigen Anwendungen. Ein Beispiel für letzteres sind "/>
-            <ITEXT FONT="FreeSans Bold" CH="Asterisk"/>
-            <ITEXT CH=" - ein Telefonanlagensystem und das brilliante"/>
-            <ITEXT FONT="FreeSans Bold" CH="LibreOffice"/>
-            <ITEXT CH=" - eine Microsoft Office kompatibles und gleichwertige Office Suite."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Vier der sechs bezahlbaren Anwendungen können hier gefunden werden. "/>
-            <ITEXT FONT="FreeSans Bold" CH="OMX Player Remote GUI"/>
-            <ITEXT CH=" (US$3.00/"/>
-            <ITEXT FONT="FreeSans Regular" CH=" £"/>
-            <ITEXT CH="1.80) enthält ein Web Interface, welches auf Smart Phones oder Tablets zur Steuerung des OMX Player genutzt werden kann, der auf dem Rasberry Pimläuft. Gib einfach die angegebene URL in Deinen Browser ein, bestimme Deinen Medien Ordner und Du hast volle Kontrolle über die Playlists, Lautstärke und all die anderen üblichen Medien Einstellungen."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" CH="FastDosBox"/>
-            <ITEXT CH=" (US$2.37/"/>
-            <ITEXT FONT="FreeSans Regular" CH="£"/>
-            <ITEXT CH="1.35) ist ein schneller x386er PC Emulator und damit eine gute Möglichkeit, DOS Spiele aus den 90ern laufen zu lassen. Ein ähnliches Programm im Pi Store ist "/>
-            <ITEXT FONT="FreeSans Bold" CH="RPix86"/>
-            <ITEXT CH="."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" CH="PiCon"/>
-            <ITEXT CH=" (US$1.00/"/>
-            <ITEXT FONT="FreeSans Regular" CH="£"/>
-            <ITEXT CH="0.60) ist ein sehr flexibler Konfigurations Manager für Hardware Optimierungen. Er enthält eine graphsiche Oberfläche zum übertakten des Rasberry Pi; für mich liegt seine wahre Stärke aber in seiner Video Konfiguration. Du bekommst schnell und einfach die perfekten Bildschirmeinstellungen angezeigt. Keine schwarzen Balken mehr! Man kann mehere Voreinstellungen speichern und so den Rasberry Pi an verschiedene Orten (zB. der Schule oder bei Freunden) nutzen und die besten Einstellungen schnell vornehmen, ohne die 'Heim'-Einstellungen zu verändern."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" CH="Timewaster"/>
-            <ITEXT CH=" (US$0.79/"/>
-            <ITEXT FONT="FreeSans Regular" CH="£"/>
-            <ITEXT CH="0.49) verschwendet nicht nur Deine Zeit, sondern auch dein Geld, sofern Du dumm genug bist, es zu kaufen - was Ich getan habe und Du also nicht! Es ist schlomm, dass es püberhaubt in den Pi Store gelangt ist."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="I was not familiar with "/>
-            <ITEXT FONT="FreeSans Bold" CH="XIX Music Player"/>
-            <ITEXT CH=", but it is pleasantly surprising and is definitely worth downloading. I am using it to listen to internet radio (Absolute Radio from the UK, Hit FM from Belgium, MacJingle Heartbeat from Austria...) while I layout this article using Scribus and all running smoothly on the Raspberry Pi. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Staying with the music theme there are two music creation applications in the Pi Store. "/>
-            <ITEXT FONT="FreeSans Bold" CH="Schism Tracker"/>
-            <ITEXT CH=" is both a MOD file player and a music composition tool. Basic instructions explaining its operation are in issues 2, 12 and 13 of The MagPi."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="With "/>
-            <ITEXT FONT="FreeSans Bold" CH="PXDRUM"/>
-            <ITEXT CH=" you will have a lot of fun creating cool beats. You can simultaneously play eight different percussion instruments and change their sound by loading different drum kits. Start with one of the demo songs and get your groove on!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Tutorials"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH="The Tutorials category contains several very useful guides including the "/>
-            <ITEXT FONT="FreeSans Bold" CH="Official Raspberry Pi Educational User Manual"/>
-            <ITEXT CH=". Other guides include "/>
-            <ITEXT FONT="FreeSans Bold" CH="Python-SQL-Database"/>
-            <ITEXT CH=" - a tutorial on how to create database applications using SQL and Python plus "/>
-            <ITEXT FONT="FreeSans Bold" CH="Raspberry Invaders"/>
-            <ITEXT CH=" - a Python programming course with 17 lessons where you learn how to create a space invaders style game using Python."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Dev Tools"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH="This is the smallest category in the Pi Store yet it contains useful collections such as "/>
-            <ITEXT FONT="FreeSans Bold" CH="HUD Sprite Pack"/>
-            <ITEXT CH=", "/>
-            <ITEXT FONT="FreeSans Bold" CH="Effects Sprite Pack"/>
-            <ITEXT CH=" and "/>
-            <ITEXT FONT="FreeSans Bold" CH="Audio Effects Pack"/>
-            <ITEXT CH=" for your Python and Scratch games... and of course all free to use."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="There is also the very excellent "/>
-            <ITEXT FONT="FreeSans Bold" CH="Pi3D"/>
-            <ITEXT CH=", a Python module that simplifies developing 3D worlds and provides access to the power of the Raspberry Pi GPU. In addition to both 3D and 2D rendering, Pi3D can load textures, models, create fractal landscapes and offers vertex and fragment shaders. There are also 19 impressive demos."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Media"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH="Last, but certainly not least, is the Media category. This is where you will find every issue of "/>
-            <ITEXT FONT="FreeSans Bold" CH="The MagPi"/>
-            <ITEXT CH=" - the first, and in my biased opinion the best, magazine for the Raspberry Pi... and of course it is free! There will typically be a short lag between The MagPi being released at the start of each month and it appearing in the Pi Store. That is because the Pi Store version is the same version that we use for creating the printed version of the magazine so we are doubly thorough with the quality control."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Conclusion"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="With over 2 million Raspberry Pis sold worldwide and the Pi Store being located on the desktop of Raspbian, it has the potential to be an incredible resource and the &quot;go to&quot; place for Raspberry Pi content. It is easy to upload so why not share your original programs or tutorials with others? The Pi Store is there for your benefit and the benefit of the community, so go use it."/>
-            <trail PARENT="Body text"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="360.080718994141" WIDTH="538.588317871094" HEIGHT="450.786712646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="15" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="11" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 450.787 538.588 450.787 538.588 450.787 538.588 450.787 0 450.787 0 450.787 0 450.787 0 450.787 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 450.787 538.588 450.787 538.588 450.787 538.588 450.787 0 450.787 0 450.787 0 450.787 0 450.787 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body text" LAYER="6" BOOKMARK="0" NEXTITEM="26" BACKITEM="-1">
+            <ITEXT FONTSIZE="11" CH="Vor 12 Monaten wurde der Pi Store mit nur 24 Produkten eröffnet. Huete sind über 100 Pridukte vorhanden, die meisten davon frei. Das MagPi schaut sich einige der unterschiedlichen Produkte im Pi Store an; hierbei besonders die kostenpflichtigen, um bei der Auswahl zu helfen."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Digitale Downloads"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Als einer der ersten Firmen hat Apple die Idee des digitalen downloads von Musik und Filmen mit ihrem iTunes Store aufgegriffen. Es folgte der AppStore, der iBook Store und schliesslich iTunes U für Studenten. Der App Store war die einzige Möglichkeit, für mobile Apple Geräte Anwendungen zu beziehen; dies wurde später für Apples MacBook und iMac Computer erweitert."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Amazon war ein Pionier beim digitalen download von Büchern und heutzutage bieten alle grossen Bücherläden digitale downloads an. Und natürlich sind die Vorteile der sofortigen Bezahlung von digitalen Inhalten nicht an den Spielkonsolen Herstellern wie Microsoft, Sony und Nintendo vorbeigegangen, die alle digitale Shops für ihre Spiele anbieten. App Stores sind weniger häufig für Windows PCs, mit der grossen Ausnahme Spiele."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Vorstellung des Pi Store"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Die bereitstellenden Firmen der soeben vorgestellten Stores haben ein kommerzielles Interesse. Dies war jedoch nicht der Fall für die Rasberry Pi Foundation, als sie den Pi Store startete. Anstatt an das Geld zu denken, sahen sie die folgenden Vorteile für die Einführung eines App Stores für für den Rasberry Pi:"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="  - Einen Platz, an dem Entwickler jedes Alters"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="    ihre Produkte mit der Raspberry Pi"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="    Gemeinschaft teilen können."/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="  - Einen Platz, an dem blutige Anfänger tolle"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="    Rasberry Pi Titel installieren und löschen"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="    können, ohne eine Kommandozeile nutzen zu"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="    müssen."/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="  - Einen Platz, an dem jeder Rasberry Pi Nutzer"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="    neue Inhalte für seinen Rechner entdecken"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="    kann. "/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Leider haben einige dies nicht gesehen, und kritisierten die Foundation, dass sie Kindern Kapitalismus beibringen würden! Aber ist das denn etwas anderes, als wenn man Kindern Taschengeld gibt, wenn sie ihre Hausaufgaben machen? Nachdem das gesagt wurde: es gibt aktuell mehr als 100 Titel und während dieser Artikel geschrieben wird sind nur sechs kostenpfichtig... und man kann alle zusammen für weniger als 12,00$/8,00£ kaufen. "/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Der Pi Store ist in fünf Kategorien unterteilt: Spiele (Games), Apps, Anleitungen (Tutorials), Entwickler-Tools (Dev-Tools) und Medien (Media). Bevor wir uns die einzelnen Rubriken näher ansehen einige Tipps zur Navigation, die Dir bei der Suche helfen. "/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Im 'Explore'-Tab des Pi Stores gibt es eine Option zum filtern des Inhaltes nach Status sowie zum Sortieren. Wenn Du Inhalt sehen willst, der noch in Arbeit ist (work-in-progress), dann ändere den Status-Filter nach 'In Progress'. Du kannst ihn auch auf 'Show All' setzen, um alles im Pi Store zu sehen."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Es gibt viele Sortierungs-Optionen, die sinnvollsten sind 'Most Played', 'Newest First' und 'Top Rated'. Beachte, dass der Store zZt diese Einstellungen nicht speichert. Beim nächsten Aufruf des Pi Stores wird der Status wieder auf 'Finished' und die Sortierung auf 'Price - Highest' zurückgesetzt."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Einige Programme im Store laufen nicht unter LXDE und benötigen einen Neustart bevor sie laufen. Obwohl eine entsprrechende Warnung auf der Seite existiert, gibt es kein endgültiges &quot;Are You sure?&quot; nachdem Du auf 'Launch' gedrückt hast. Gehe daher sicher, dass Du vorher alles gesichert hast."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Vergiss nicht zu Spenden!"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Wenn Du in einem Resaurant gut bedient wirst, gibst Du ein Trinkgeld. Fast alles im Pi Store ist kostenlos. Wenn Dir ein Spiel gefällt oder Du ein nützliches Programm gefunden hast, überlege, ob Du deine Anerkennung zeigen willst, indem Du eine Spende für den Entwickler hinterlassen willst. Dies ist ganz einfch: in deiner Bibliothek wählst Du den Titel aus, für den Du spenden willst und klickst auf 'View Details'. In der folgenden Seite klickst Du 'Tip this Project' um 1,00$/1,00£ zu spenden."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Spiele (Games)"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Erstaunlicherweise ist dies nicht die grösste Kategorie im Pi Store, aber mit 30 Titeln ist für jeden Spieler etwas dabei."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="Bei "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Dr Bulbaceous : Puzzle Solver"/>
+            <ITEXT FONTSIZE="11" CH=" (US$2.99/"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH=" £"/>
+            <ITEXT FONTSIZE="11" CH="1.99) lässt Du drei verschiedenfarbige Gegenstände fallen. Wenn drei oder mehr sich berühren, ver-schwinden sie. Das Ziel ist, den Bildschirm zu leeren, bevor die Gegenstände die Decke erreichen. Obwohl ich das Spiel zu einfach fand, werden Kinder es lieben. Es ist farbenfroh und gut implementiert. Tipp: um deinen aktuellen Gegenstand mit etwas besseren zu tauschen, drücke die Enter-Taste. Es sieht so aus, als ob die Maus funktionieren sollte, aber bei mir hat's nicht geklappt."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Alas "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Zombie X Pro"/>
+            <ITEXT FONTSIZE="11" CH=" ($1.60/"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="£"/>
+            <ITEXT FONTSIZE="11" CH="1.00) lief bei mir nicht richtig, daher kann ich es nicht kommentieren. Es gibt eine Demo-Option, damit Du es vorher ausprobieren kannst."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="DmazeD"/>
+            <ITEXT FONTSIZE="11" CH=" macht viel Spass. Du durchsuchst einen Irrgarten nach einen Schlüssel für den Ausgang. Es ist aber so dunkel, dass Du nur ein begrenztes Feld sehen kannst. Lausche auf die Monster, die auch mit Dir im Irrgarten sind!"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Ein weiteres Spiel, das mir sehr viel Spass gemacht hat, ist "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="The Little Crane That Could"/>
+            <ITEXT FONTSIZE="11" CH=". Durch geschickten Gebrauch von deinem Kran und seiner vielen Bewegungen musst Du eine Serie von immer schwieriger werdenen Aufgagen erfüllen."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Viele Leute eines gewissen Alters (wie ich) nutzen den Rasberry Pi um das goldene Zeitalter der Home-Computer wieder aufleben zu lassen. Es herrscht keine Knappheit an Spielen, die von diesen Jahrzehnt inspiriert sind. Im Pi Store beinhaltet dies "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Abandoned Framhouse Adventure"/>
+            <ITEXT FONTSIZE="11" CH=" und "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="King's treasure"/>
+            <ITEXT FONTSIZE="11" CH=" - klassische Text Adventures, "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Chocolate Doom"/>
+            <ITEXT FONTSIZE="11" CH=" - spiele alle Versionen von Doom, "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="NXEngine"/>
+            <ITEXT FONTSIZE="11" CH=" - ein Clon der &quot;Cave Story&quot; Action-Adventure, "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Star Flite"/>
+            <ITEXT FONTSIZE="11" CH=" - ein Star Trek retro Spiel und einen Emulator für den "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="11" CH="Atari800"/>
+            <ITEXT FONTSIZE="11" CH="."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Andere exzellente Spiele sind "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Freeciv"/>
+            <ITEXT FONTSIZE="11" CH=" - ein Strategie Spiel, "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Sqrxz 2"/>
+            <ITEXT FONTSIZE="11" CH=" and "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Sqrxz 3"/>
+            <ITEXT FONTSIZE="11" CH=" - Action-Adventure,  das beeindruckende "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Open Arena"/>
+            <ITEXT FONTSIZE="11" CH=" - Ego-Shooter, "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="OpenTTD"/>
+            <ITEXT FONTSIZE="11" CH=" - ein Simulations Spiel, das auf Transport Tycoon Deluxe basiert und "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Iridium Rising"/>
+            <ITEXT FONTSIZE="11" CH=" - ein 3D Space Spiel, welches zZt. allerdings ein &quot;Servers Full&quot; Problem hat."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Das erste kommerzielle Spiel im Pi Store war "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Storm In A Teacup"/>
+            <ITEXT FONTSIZE="11" CH=". Es bleibt eines meiner beliebtesten Rasberry Pi Spiele; leider ist es vor Kurzen aus dem Pi Store entfernt worden. Hoffentlich kommt es bald zurück."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Anwendungen (Apps)"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Bei weitem die grösste Kategorie im Pi Store. Es existiert eine unglaubliche Auswahl an Titeln, von Hilfsprogrammen über Emulatoren, Medien Programmen bis zu schwergewichtigen Anwendungen. Ein Beispiel für letzteres sind "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Asterisk"/>
+            <ITEXT FONTSIZE="11" CH=" - ein Telefonanlagensystem und das brilliante"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="LibreOffice"/>
+            <ITEXT FONTSIZE="11" CH=" - eine Microsoft Office kompatibles und gleichwertige Office Suite."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Vier der sechs bezahlbaren Anwendungen können hier gefunden werden. "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="OMX Player Remote GUI"/>
+            <ITEXT FONTSIZE="11" CH=" (US$3.00/"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH=" £"/>
+            <ITEXT FONTSIZE="11" CH="1.80) enthält ein Web Interface, welches auf Smart Phones oder Tablets zur Steuerung des OMX Player genutzt werden kann, der auf dem Rasberry Pimläuft. Gib einfach die angegebene URL in Deinen Browser ein, bestimme Deinen Medien Ordner und Du hast volle Kontrolle über die Playlists, Lautstärke und all die anderen üblichen Medien Einstellungen."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="FastDosBox"/>
+            <ITEXT FONTSIZE="11" CH=" (US$2.37/"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="£"/>
+            <ITEXT FONTSIZE="11" CH="1.35) ist ein schneller x386er PC Emulator und damit eine gute Möglichkeit, DOS Spiele aus den 90ern laufen zu lassen. Ein ähnliches Programm im Pi Store ist "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="RPix86"/>
+            <ITEXT FONTSIZE="11" CH="."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="PiCon"/>
+            <ITEXT FONTSIZE="11" CH=" (US$1.00/"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="£"/>
+            <ITEXT FONTSIZE="11" CH="0.60) ist ein sehr flexibler Konfigurations Manager für Hardware Optimierungen. Er enthält eine graphsiche Oberfläche zum übertakten des Rasberry Pi; für mich liegt seine wahre Stärke aber in seiner Video Konfiguration. Du bekommst schnell und einfach die perfekten Bildschirmeinstellungen angezeigt. Keine schwarzen Balken mehr! Man kann mehere Voreinstellungen speichern und so den Rasberry Pi an verschiedene Orten (zB. der Schule oder bei Freunden) nutzen und die besten Einstellungen schnell vornehmen, ohne die 'Heim'-Einstellungen zu verändern."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Timewaster"/>
+            <ITEXT FONTSIZE="11" CH=" (US$0.79/"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="£"/>
+            <ITEXT FONTSIZE="11" CH="0.49) verschwendet nicht nur Deine Zeit, sondern auch dein Geld, sofern Du dumm genug bist, es zu kaufen - was Ich getan habe und Du also nicht! Es ist schlimm, dass es überhaubt in den Pi Store gelangt ist."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Ich kannte den "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="XIX Music Player"/>
+            <ITEXT FONTSIZE="11" CH=" nicht, aber er ist angenehm überraschend und definitiv wert, heruntergeladen zu werden. Ich nutze ihn, um Internet Radio zu hören (Absolute Radio aus England, Hit FM aus Belgien, MacJingle Heartbeat aus Österreich...) wärend ich diesen Arikel in Scribus layoute und alles läuft sauber auf dem Rasberry Pi. "/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Um beim Musik-Thema zu bleiben: es gibt zwei Musik Erstellungs Programme im Pi Store. "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Schism Tracker"/>
+            <ITEXT FONTSIZE="11" CH=" ist sowohl ein MOD File Player als auch ein Kompositions Werkzeug. Einführende Anleitungen sind in den Ausgaben 2, 12 und 13 des MagPi Magazins zu finden."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Mit "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="PXDRUM"/>
+            <ITEXT FONTSIZE="11" CH=" wirst Du eine Menge Spass dabei haben, coole Beats zu erzeugen. Du kannst gleichzeitig acht verschiedene Schlagzeug Instrumente spielen und ihren Klang durch verschiedene 'Drum Kits' verändern. Beginne mit einem der Demo Songs und finde Deinen Groove!"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Anleitungen (Tutorials)"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Die Anleitungs Kategorie enthält mehere sehr nützliche Handbücher, inklusive des "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Official Raspberry Pi Educational User Manual"/>
+            <ITEXT FONTSIZE="11" CH=". Andere Handbücher sind die "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Python-SQL-Database"/>
+            <ITEXT FONTSIZE="11" CH=" - eine Anleitung wie man Datenbank Applikationen mit SQL und Python erstellt und "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Raspberry Invaders"/>
+            <ITEXT FONTSIZE="11" CH=" - Ein Python Programmier Kurs mit 17 Übungen, indem Du lernst, ein Space-Invader Spiel mittels Python zu erstellen."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH=" "/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Entwickler Tools (Dev Tools)"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Dies ist die kleinste Kategorie im Pi Store, uund dennoch enthält sie sinnvolle Sammlungen wie "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="HUD Sprite Pack"/>
+            <ITEXT FONTSIZE="11" CH=", "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Effects Sprite Pack"/>
+            <ITEXT FONTSIZE="11" CH=" und "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Audio Effects Pack"/>
+            <ITEXT FONTSIZE="11" CH=" für Deine Python und Scratch Spuele... und natürlich alles umsonst."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Hier ist auch das sehr hervorragende "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Pi3D"/>
+            <ITEXT FONTSIZE="11" CH=", ein Python Modul, das die Erstellung von 3D Welten erleichtert und den Zugang zum Rasberry Pi GPU ermöglicht. Neben den 3D und 2D Rendering kann Pi3D Texturen und Modelle laden, fraktale Landschaften erstellen und bietet Vertex und Fragment Shaders an. Es gibt auch 19 eindrucksvolle Demos."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Medien (Media)"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Zu guter Letzt gibt es noch die Medien Kategorie. Hier findest Du jede Ausgabe des MagPi Magazins - das erste, meiner Meinung nach das beste Magazin für den Rasberry Pi... und natürlich ist es kostenlos! Es wird meist eine kurze Verzögerung geben zwischen dem Erscheinen des Magazins am Monatsanfang und dem Erscheinen im Pi Store. Das liegt daran, dass die Pi Store Version auch die Druckversion ist, sodass wir doppelt durch die Qualitätskontrolle müssen."/>
+            <para PARENT="Body text" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Fazit"/>
+            <para PARENT="Body title" LINESP="15"/>
+            <para PARENT="Body text" LINESP="15"/>
+            <ITEXT FONTSIZE="11" CH="Mit weltweit über 2 Millionenverkauften Rasberry Pi und dem Pi Store auf dem Desktop von Rasbian hat es das Ptential, eine unglaubliche Quelle für Rasberry Pi Inhalt zu sein. Es ist einfach im Upload, also warum teilst Du nicht Deine Programme oder Anleitungen mit anderen? Der Pi Store ist für Dich und die Community, also nutze ihn."/>
+            <trail PARENT="Body text" LINESP="15"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347091674805" YPOS="956.505615234375" WIDTH="538.588317871094" HEIGHT="736.251220703125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 736.251 538.588 736.251 538.588 736.251 538.588 736.251 0 736.251 0 736.251 0 736.251 0 736.251 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 736.251 538.588 736.251 538.588 736.251 538.588 736.251 0 736.251 0 736.251 0 736.251 0 736.251 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body text" LAYER="6" BOOKMARK="0" NEXTITEM="38" BACKITEM="25">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347091674805" YPOS="956.505615234375" WIDTH="538.588317871094" HEIGHT="736.251220703125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="15" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="11" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 736.251 538.588 736.251 538.588 736.251 538.588 736.251 0 736.251 0 736.251 0 736.251 0 736.251 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 736.251 538.588 736.251 538.588 736.251 538.588 736.251 0 736.251 0 736.251 0 736.251 0 736.251 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body text" LAYER="6" BOOKMARK="0" NEXTITEM="38" BACKITEM="25">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="158.776216225559" WIDTH="612.283464566929" HEIGHT="64.0546498911986" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.123419363952213" LOCALSCY="0.123419363952213" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Fade_effect_002.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="11" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -465,7 +463,7 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body text" LAYER="6" BOOKMARK="0" NEXTITEM="45" BACKITEM="26">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="15" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="11" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body text" LAYER="6" BOOKMARK="0" NEXTITEM="45" BACKITEM="26">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="91.49952755926" YPOS="2657.16566929121" WIDTH="612.2834646" HEIGHT="36.8503937" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -493,30 +491,30 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body text" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="38">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="15" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="11" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body text" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="38">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="410.532509486883" YPOS="2907.20563849502" WIDTH="256.402923583984" HEIGHT="191.549428910529" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.231619623833771" LOCALSCY="0.231619623833771" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="media.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 191.549 256.403 191.549 256.403 191.549 256.403 191.549 0 191.549 0 191.549 0 191.549 0 191.549 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 191.549 256.403 191.549 256.403 191.549 256.403 191.549 0 191.549 0 191.549 0 191.549 0 191.549 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="410.532509486883" YPOS="2944.05603219581" WIDTH="256.402923583984" HEIGHT="191.549428910529" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.231619623833771" LOCALSCY="0.231619623833771" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="media.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 191.549 256.403 191.549 256.403 191.549 256.403 191.549 0 191.549 0 191.549 0 191.549 0 191.549 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 191.549 256.403 191.549 256.403 191.549 256.403 191.549 0 191.549 0 191.549 0 191.549 0 191.549 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="409.782509486883" YPOS="979.056328104597" WIDTH="257.152923583984" HEIGHT="192.10972701351" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.232297130608838" LOCALSCY="0.232297130608838" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="games.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 192.11 257.153 192.11 257.153 192.11 257.153 192.11 0 192.11 0 192.11 0 192.11 0 192.11 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 192.11 257.153 192.11 257.153 192.11 257.153 192.11 0 192.11 0 192.11 0 192.11 0 192.11 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="409.782509486883" YPOS="973.387036766014" WIDTH="257.152923583984" HEIGHT="192.10972701351" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.232297130608838" LOCALSCY="0.232297130608838" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="games.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 192.11 257.153 192.11 257.153 192.11 257.153 192.11 0 192.11 0 192.11 0 192.11 0 192.11 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 192.11 257.153 192.11 257.153 192.11 257.153 192.11 0 192.11 0 192.11 0 192.11 0 192.11 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="2189.99212598425" WIDTH="256.402923583984" HEIGHT="191.549428910529" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.231619623833771" LOCALSCY="0.231619623833771" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="apps.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 191.549 256.403 191.549 256.403 191.549 256.403 191.549 0 191.549 0 191.549 0 191.549 0 191.549 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 191.549 256.403 191.549 256.403 191.549 256.403 191.549 0 191.549 0 191.549 0 191.549 0 191.549 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="2212.66929133858" WIDTH="256.402923583984" HEIGHT="191.549428910529" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.231619623833771" LOCALSCY="0.231619623833771" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="apps.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 191.549 256.403 191.549 256.403 191.549 256.403 191.549 0 191.549 0 191.549 0 191.549 0 191.549 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 191.549 256.403 191.549 256.403 191.549 256.403 191.549 0 191.549 0 191.549 0 191.549 0 191.549 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347086614173" YPOS="2818.00787401575" WIDTH="257.152893066406" HEIGHT="192.109704214921" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.232297103041017" LOCALSCY="0.232297103041017" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="tutorials.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 192.11 257.153 192.11 257.153 192.11 257.153 192.11 0 192.11 0 192.11 0 192.11 0 192.11 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 192.11 257.153 192.11 257.153 192.11 257.153 192.11 0 192.11 0 192.11 0 192.11 0 192.11 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347086614173" YPOS="2869.03149606299" WIDTH="257.152893066406" HEIGHT="192.109704214921" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.232297103041017" LOCALSCY="0.232297103041017" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="tutorials.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 192.11 257.153 192.11 257.153 192.11 257.153 192.11 0 192.11 0 192.11 0 192.11 0 192.11 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 192.11 257.153 192.11 257.153 192.11 257.153 192.11 0 192.11 0 192.11 0 192.11 0 192.11 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.630551181103" YPOS="3193.28441421629" WIDTH="255.935440063477" HEIGHT="191.200188737575" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.231197326163936" LOCALSCY="0.231197326163936" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="devtools.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 191.2 255.935 191.2 255.935 191.2 255.935 191.2 0 191.2 0 191.2 0 191.2 0 191.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 191.2 255.935 191.2 255.935 191.2 255.935 191.2 0 191.2 0 191.2 0 191.2 0 191.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.630551181103" YPOS="3230.13480791707" WIDTH="255.935440063477" HEIGHT="191.200188737575" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.231197326163936" LOCALSCY="0.231197326163936" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="devtools.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 191.2 255.935 191.2 255.935 191.2 255.935 191.2 0 191.2 0 191.2 0 191.2 0 191.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 191.2 255.935 191.2 255.935 191.2 255.935 191.2 0 191.2 0 191.2 0 191.2 0 191.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="410.75" YPOS="503.492125984252" WIDTH="256.185424804688" HEIGHT="159.973700787402" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Pi Store Green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="40" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.185 0 256.185 0 256.185 0 256.185 0 256.185 159.974 256.185 159.974 256.185 159.974 256.185 159.974 0 159.974 0 159.974 0 159.974 0 159.974 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.185 0 256.185 0 256.185 0 256.185 0 256.185 159.974 256.185 159.974 256.185 159.974 256.185 159.974 0 159.974 0 159.974 0 159.974 0 159.974 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="410.75" YPOS="458.137795275591" WIDTH="256.185424804688" HEIGHT="159.973700787402" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Pi Store Green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="40" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.185 0 256.185 0 256.185 0 256.185 0 256.185 159.974 256.185 159.974 256.185 159.974 256.185 159.974 0 159.974 0 159.974 0 159.974 0 159.974 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.185 0 256.185 0 256.185 0 256.185 0 256.185 159.974 256.185 159.974 256.185 159.974 256.185 159.974 0 159.974 0 159.974 0 159.974 0 159.974 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
