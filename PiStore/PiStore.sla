@@ -181,7 +181,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="522.368642973826" YPOS="301.596625559448" WIDTH="130.464288855498" HEIGHT="18.3807178205899" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 18.3807 130.464 18.3807 130.464 18.3807 130.464 18.3807 0 18.3807 0 18.3807 0 18.3807 0 18.3807 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 18.3807 130.464 18.3807 130.464 18.3807 130.464 18.3807 0 18.3807 0 18.3807 0 18.3807 0 18.3807 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="11.2678555411184" gYpos="161.177334178346" gWidth="153" gHeight="193.248031453543" ALIGN="1" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="12" FCOLOR="White" CH="MagPi Writer"/>
+            <ITEXT FONTSIZE="12" FCOLOR="White" CH="MagPi Autor"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -289,61 +289,61 @@
             <ITEXT CH=". Durch geschickten Gebrauch von deinem Kran und seiner vielen Bewegungen musst Du eine Serie von immer schwieriger werdenen Aufgagen erfüllen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Many folks of a certain age (like myself!) use their Raspberry Pi to relive the golden age of home computing and there is no shortage of games inspired from that decade. In the Pi Store these include "/>
-            <ITEXT FONT="FreeSans Bold" CH="Abandoned Farmhouse Adventure"/>
-            <ITEXT CH=" and "/>
-            <ITEXT FONT="FreeSans Bold" CH="King's Treasure"/>
-            <ITEXT CH=" - classic text based adventures, "/>
+            <ITEXT CH="Viele Leute eines gewissen Alters (wie ich) nutzen den Rasberry Pi um das goldene Zeitealter der Home-Computer wieder aufleben zu lassen. Es herrschte keine Knappheit an Spielen, die von diesen Jahrzehnt inspiriert sind. Im Pi Store beinhaltet dies "/>
+            <ITEXT FONT="FreeSans Bold" CH="Abandoned Framhouse Adventure"/>
+            <ITEXT CH=" und "/>
+            <ITEXT FONT="FreeSans Bold" CH="King's treasure"/>
+            <ITEXT CH=" - klassische Text Adventures, "/>
             <ITEXT FONT="FreeSans Bold" CH="Chocolate Doom"/>
-            <ITEXT CH=" - play all versions of Doom, "/>
+            <ITEXT CH=" - spiele alle Versionen von Doom, "/>
             <ITEXT FONT="FreeSans Bold" CH="NXEngine"/>
-            <ITEXT CH=" - a clone of the &quot;Cave Story&quot; platformer, "/>
+            <ITEXT CH=" - ein Clon der &quot;Cave Story&quot; Action-Adventure, "/>
             <ITEXT FONT="FreeSans Bold" CH="Star Flite"/>
-            <ITEXT CH=" - a Star Trek retro game plus an emulator for the "/>
-            <ITEXT FONT="FreeSans Bold" CH="Atari800"/>
+            <ITEXT CH=" - ein Star Trek retro Spiel und einen Emulator für den "/>
+            <ITEXT FONT="FreeMono Bold" CH="Atari800"/>
             <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Other excellent games include "/>
+            <ITEXT CH="Andere excellente Spiele sind "/>
             <ITEXT FONT="FreeSans Bold" CH="Freeciv"/>
-            <ITEXT CH=" - an empire building strategy game, "/>
+            <ITEXT CH=" - ein Strategie Spiel, "/>
             <ITEXT FONT="FreeSans Bold" CH="Sqrxz 2"/>
             <ITEXT CH=" and "/>
             <ITEXT FONT="FreeSans Bold" CH="Sqrxz 3"/>
-            <ITEXT CH=" - platformers,  the impressive "/>
+            <ITEXT CH=" - Action-Adventure,  das beeindruckende "/>
             <ITEXT FONT="FreeSans Bold" CH="Open Arena"/>
-            <ITEXT CH=" - first person shooter, "/>
+            <ITEXT CH=" - Ego-Shooter, "/>
             <ITEXT FONT="FreeSans Bold" CH="OpenTTD"/>
-            <ITEXT CH=" - a simulation game based on Transport Tycoon Deluxe and "/>
+            <ITEXT CH=" - ein Simulations Spiel, das auf Transport Tycoon Deluxe basiert und "/>
             <ITEXT FONT="FreeSans Bold" CH="Iridium Rising"/>
-            <ITEXT CH=" - a 3D space game but currently suffering a &quot;Servers Full&quot; issue."/>
+            <ITEXT CH=" - ein 3D Space Spiel, welches zZt. allerdings ein &quot;Servers Full&quot; Problem hat."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The first commercial game on the Pi Store was "/>
+            <ITEXT CH="Das erste kommerzielle Spiel im Pi Store war "/>
             <ITEXT FONT="FreeSans Bold" CH="Storm In A Teacup"/>
-            <ITEXT CH=". It remains one of my favourite Raspberry Pi games, but unfortunately it was recently removed from the Pi Store. Hopefully it will be back soon."/>
+            <ITEXT CH=". Es bleibt eines meiner beliebtesten Rasberry Pi Spiele; leider ist es vor Kurzen aus dem Pi Store entfernt worden. Hoffentlich kommt es bald zurück."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Apps"/>
+            <ITEXT CH="Anwendungen (Apps)"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="By far the largest category in the Pi Store, there is an incredible selection of titles ranging from utilities to emulators to media programs to 'heavy-weight' applications. Examples of the latter are "/>
+            <ITEXT CH="Bei weitem die grösste Kategorie im Pi Store. Es existiert eine unglaubliche Auswahl an Titeln, von Hilfsprogrammen über Emulatoren, Medien Programmen bis zu schwergewichtigen Anwendungen. Ein Beispiel für letzteres sind "/>
             <ITEXT FONT="FreeSans Bold" CH="Asterisk"/>
-            <ITEXT CH=" - a PBX system and the brilliant "/>
+            <ITEXT CH=" - ein Telefonanlagensystem und das brilliante"/>
             <ITEXT FONT="FreeSans Bold" CH="LibreOffice"/>
-            <ITEXT CH=" - a Microsoft Office compatible and equivalent office suite."/>
+            <ITEXT CH=" - eine Microsoft Office kompatibles und gleichwertige Office Suite."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Four of the six paid applications can be found here. "/>
+            <ITEXT CH="Vier der sechs bezahlbaren Anwendungen können hier gefunden werden. "/>
             <ITEXT FONT="FreeSans Bold" CH="OMX Player Remote GUI"/>
             <ITEXT CH=" (US$3.00/"/>
             <ITEXT FONT="FreeSans Regular" CH=" £"/>
-            <ITEXT CH="1.80) provides a web UI that can be used on a smart phone or tablet device to control OMX Player running on the Raspberry Pi. Simply enter the given URL in your web browser, specify your media folder and then have full control of playlists, volume and all the usual media controls."/>
+            <ITEXT CH="1.80) enthält ein Web Interface, welches auf Smart Phones oder Tablets zur Steuerung des OMX Player genutzt werden kann, der auf dem Rasberry Pimläuft. Gib einfach die angegebene URL in Deinen Browser ein, bestimme Deinen Medien Ordner und Du hast volle Kontrolle über die Playlists, Lautstärke und all die anderen üblichen Medien Einstellungen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="FastDosBox"/>
             <ITEXT CH=" (US$2.37/"/>
             <ITEXT FONT="FreeSans Regular" CH="£"/>
-            <ITEXT CH="1.35) is a fast 386 based PC emulator and is a great way to run 90's era DOS based games. Another similar program on the Pi Store is "/>
+            <ITEXT CH="1.35) ist ein schneller x386er PC Emulator und damit eine gute Möglichkeit, DOS Spiele aus den 90ern laufen zu lassen. Ein ähnliches Programm im Pi Store ist "/>
             <ITEXT FONT="FreeSans Bold" CH="RPix86"/>
             <ITEXT CH="."/>
             <para PARENT="Body text"/>
@@ -351,13 +351,13 @@
             <ITEXT FONT="FreeSans Bold" CH="PiCon"/>
             <ITEXT CH=" (US$1.00/"/>
             <ITEXT FONT="FreeSans Regular" CH="£"/>
-            <ITEXT CH="0.60) is a very flexible configuration manager for hardware tweaking. It provides a GUI for overclocking every aspect of the Raspberry Pi, but for me its real strength is with its video configuration. Visually get the perfect monitor setup quickly and easily. No more black bars! Multiple presets can be saved so if you take your Raspberry Pi to different locations (e.g. school, Raspberry Jam, hackspace) you can get the best display configuration quickly without changing your 'home' settings."/>
+            <ITEXT CH="0.60) ist ein sehr flexibler Konfigurations Manager für Hardware Optimierungen. Er enthält eine graphsiche Oberfläche zum übertakten des Rasberry Pi; für mich liegt seine wahre Stärke aber in seiner Video Konfiguration. Du bekommst schnell und einfach die perfekten Bildschirmeinstellungen angezeigt. Keine schwarzen Balken mehr! Man kann mehere Voreinstellungen speichern und so den Rasberry Pi an verschiedene Orten (zB. der Schule oder bei Freunden) nutzen und die besten Einstellungen schnell vornehmen, ohne die 'Heim'-Einstellungen zu verändern."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Timewaster"/>
             <ITEXT CH=" (US$0.79/"/>
             <ITEXT FONT="FreeSans Regular" CH="£"/>
-            <ITEXT CH="0.49) wastes not only your time, but also your money, if you are stupid enough to buy it - which I did so you won't! It is disappointing that this was even allowed in the Pi Store in the first place. "/>
+            <ITEXT CH="0.49) verschwendet nicht nur Deine Zeit, sondern auch dein Geld, sofern Du dumm genug bist, es zu kaufen - was Ich getan habe und Du also nicht! Es ist schlomm, dass es püberhaubt in den Pi Store gelangt ist."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="I was not familiar with "/>
